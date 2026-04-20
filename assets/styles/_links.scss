@@ -1,0 +1,46 @@
+/* ------------------------------------------------------------ *\
+	Links
+\* ------------------------------------------------------------ */
+
+.links {
+	padding-top: 40px;
+
+	/* Mobile */
+	
+	@include mobile {
+		text-align: center; 
+	}
+
+	.links__head {
+		padding-bottom: 8px; 
+
+		h5 {
+			font-size: 17px; 
+			font-weight: bold; 
+		}
+	}
+
+	.links__body {
+		padding-bottom: 71px; 
+
+		ul {
+			list-style: none; 
+			font-size: 14px; 
+			color: $grey;
+
+			li {
+				a {
+					color: inherit;
+
+					&:hover {
+						color: #4eccd9;
+					}
+				}
+
+				+ li {
+					margin-top: 2px; 
+				}
+			}
+		}
+	}
+}

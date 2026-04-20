@@ -1,0 +1,47 @@
+/* ------------------------------------------------------------ *\
+	Video
+\* ------------------------------------------------------------ */
+
+.video {
+	position: relative; 
+	z-index: 6;
+	max-width: 1000px;
+	margin: 0 auto; 
+
+	&.video--small {
+		.video__image {
+			height: 225px; 
+		}
+	}
+
+	.video__image {
+		height: 550px; 
+		background-size: cover;
+		background-position: center center; 
+		
+		@include mobile { 
+			height: 257px;
+		}
+	}
+
+	.video__body {
+		position: relative; 
+		overflow: hidden; 
+		border-radius: 10px;
+		border: 2px solid #fff;
+		box-shadow: 0px 15px 30px 0px rgba(153, 153, 153, .3);
+	}
+
+	.video__content {
+		max-width: 300px;
+		margin: 0 auto; 
+		padding-top: 26px; 
+		font-size: 14px; 
+		line-height: 1.71; 
+
+		p {
+			margin-bottom: 27px;
+			color: #999; 
+		}
+	}
+}

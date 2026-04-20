@@ -1,0 +1,194 @@
+/* ------------------------------------------------------------ *\
+	List Resourses
+\* ------------------------------------------------------------ */
+
+.list-resourses {
+	list-style: none;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 13px;
+	padding-top: 20px;
+
+	/* Tablet */
+
+	@include tablet {
+		margin: 0 -17px;
+	}
+
+	/* Mobile */
+
+	@include mobile {
+		margin: 0;
+	}
+
+	li {
+		max-width: 33.33%;
+		flex: 0 0 33.33%;
+		padding: 0 17px 27px;
+
+		/* Mobile */
+
+		@include mobile {
+			max-width: 100%;
+			flex: 0 0 100%;
+			padding: 0 0 20px;
+		}
+
+		a {
+			display: flex;
+			width: 100%;
+			height: 140px;
+			padding: 0 15px; 
+			justify-content: center;
+			align-items: center;
+			border-radius: 4px;
+			box-shadow: 0px 10px 20px 0px rgba(170, 170, 170, 0);
+			background: #f5f5f5;
+			line-height: 1.4;
+			font-family: $merri;
+			font-size: 20px;
+			color: $blue;
+			text-align: center;
+
+			&:hover {
+				box-shadow: 0px 10px 20px 0px rgba(170, 170, 170, 0.3);
+				background: $blue !important;
+				color: #fff;
+			}
+		}
+	}
+}
+
+/* ------------------------------------------------------------ *\
+	List Details
+\* ------------------------------------------------------------ */
+
+.list-details {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 5px 0 0;
+	list-style: none;
+	font-size: 15px;
+	color: $grey;
+	line-height: 1.67;
+
+	/* Small Desktop */
+
+	@include smalldesktop {
+		flex-wrap: wrap;
+		padding-bottom: 20px;
+	}
+
+	/* Mobile */
+
+	@include mobile {
+		text-align: center;
+	}
+
+	li {
+		flex: 0 0 165px;
+		max-width: 165px;
+
+		/* Small Desktop */
+
+		@include smalldesktop {
+			flex: 0 0 220px;
+			max-width: 220px;
+		}
+
+		/* Mobule */
+
+		@include mobile {
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+
+		h6 {
+			margin-bottom: 5px;
+			font-family: $mont;
+			font-size: 15px;
+			font-weight: bold;
+			color: $grey;
+
+			span {
+				font-weight: normal;
+			}
+
+			+ h6 {
+				padding-top: 5px;
+			}
+		}
+
+		p {
+			margin-bottom: 19px;
+		}
+	}
+}
+
+/* ------------------------------------------------------------ *\
+	List Contacts
+\* ------------------------------------------------------------ */
+
+.list-contacts {
+	margin-right: 4px;
+	margin-bottom: 0;
+	padding-top: 21px;
+	list-style: none;
+	font-size: 14px;
+
+	/* Mobile */
+
+	@include mobile {
+		flex-wrap: wrap;
+	}
+
+	@include mobilexs {
+
+		a[href^="mailto"] {
+			font-size: 12px;
+		}
+	}
+
+	li {
+		position: relative;
+
+		/* Mobile */
+
+		@include mobile {
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+
+		+ li {
+			margin-left: 130px;
+
+			/* Mobile */
+
+			@include mobile {
+				margin-left: 0;
+			}
+
+			&:before {
+				content: '';
+				position: absolute;
+				top: -14px;
+				left: -69px;
+				display: inline-block;
+				width: 1px;
+				height: 100px;
+				background: #ccc;
+			}
+		}
+
+		h6 {
+			margin-bottom: 7px;
+			font-family: $mont;
+			font-size: 16px;
+			font-weight: bold;
+		}
+
+		p {
+			margin-bottom: 23px;
+		}
+	}
+}

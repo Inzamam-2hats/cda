@@ -1,0 +1,151 @@
+/* ------------------------------------------------------------ *\
+	Subscribe
+\* ------------------------------------------------------------ */
+
+.subscribe {
+	padding-bottom: 4px;
+	margin-left: -5px;
+
+	/* Small Desktop */
+
+	@include smalldesktop {
+		margin-left: -100px;
+	}
+
+	/* Tablet */
+
+	@include tablet {
+		margin-left: 0;
+	}
+
+	.top_label {
+		.ginput_container {
+			margin: 0 !important; 
+		}
+	}
+
+	.gform_body {
+		width: 336px !important; 
+		float: left; 
+		margin-right: 14px;
+
+		@include smalldesktop {
+			width: 300px !important;
+		}
+
+		/* Tablet */
+
+		@include tablet {
+			width: 336px !important;
+		}
+
+		/* Mobile */
+
+		@include mobile {
+			width: 100% !important;
+			float: none;
+			margin: 0 0 17px;
+		}
+
+		.gform_fields {
+			list-style: none;
+			margin-bottom: 0;
+
+			.gfield {
+				margin: 0 !important; 
+
+				/* Mobile */
+				
+				@include mobile {
+					padding-right: 0 !important; 
+				}
+				
+				.medium {
+					padding: 0 24px !important;
+				}
+			}
+
+			.gfield_label {
+				display: none;
+			}
+
+			.medium {
+				display: inline-block;
+				width: 100%;
+				height: 50px;
+				padding: 0 24px;
+				border: 2px solid transparent;
+				border-radius: 24px;
+				outline: 0;
+				font-weight: normal;
+				font-family: $mont;
+				font-size: 14px;
+				color: $grey;
+				transition: .5s;
+
+				&:focus {
+					border-color: $grey;
+				}
+			}
+		}
+	}
+
+	.gform_footer {
+		float: left;
+		width: 149px !important;
+		margin: 0 !important; 
+		padding: 0 !important; 
+		clear: none !important;
+
+		/* Mobile */
+
+		@include mobile {
+			float: none;
+			width: 100% !important; 
+		}
+
+		.gform_button {
+			display: inline-block;
+			height: 50px;
+			min-width: 149px;
+			padding: 0 30px !important;
+			border: 2px solid $blue;
+			border-radius: 24px;
+			background-color: $blue;
+			font-family: $roboto;
+			font-weight: normal;
+			font-size: 14px;
+			color: #fff;
+			line-height: 48px;
+			vertical-align: middle;
+			text-align: center;
+			cursor: pointer;
+			text-decoration: none;
+			appearance: none;
+			transition: .5s;
+
+			/* Mobile */
+
+			@include mobile {
+				min-width: auto;
+				width: 100% !important;
+			}
+
+			&:hover {
+				color: #fff;
+				border-color: #fff;
+				background-color: transparent;
+			}
+		}
+	}
+
+	form {
+		&:after {
+			content: '';
+			display: table;
+			line-height: 0;
+			clear: both;
+		}
+	}
+}
+

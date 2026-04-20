@@ -1,0 +1,48 @@
+/* ------------------------------------------------------------ *\
+	Contacts
+\* ------------------------------------------------------------ */
+
+.contacts {
+	padding-bottom: 64px;
+
+	/* Tablet */
+
+	@include tablet {
+		.col-md-6 {
+			padding-bottom: 40px;
+		}
+	}
+
+	/* Mobile */
+
+	@include mobile {
+		padding: 0;
+	}
+
+	h5 {
+		max-width: 190px;
+		margin-bottom: 20px;
+		line-height: 1.4;
+		font-size: 17px;
+
+		/* Tablet */
+
+		@include tablet {
+			max-width: 100%;
+		}
+	}
+
+	ul {
+		max-width: 250px;
+		margin-bottom: 25px;
+		font-size: 14px;
+		line-height: 1.75;
+		list-style: none; 
+
+		/* Tablet */
+
+		@include tablet {
+			max-width: 100%;
+		}
+	}
+}

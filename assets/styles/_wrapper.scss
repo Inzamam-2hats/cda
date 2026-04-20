@@ -1,0 +1,25 @@
+/* ------------------------------------------------------------ *\
+	Wrapper
+\* ------------------------------------------------------------ */
+
+.wrapper {
+	position: relative;
+	min-height: 100vh;
+	overflow: hidden;
+	padding-top: 120px;
+	transition: .3s;
+
+	&.scroll {
+		padding-top: 90px;
+	}
+
+	&.wrapper--secondary {
+		padding-top: 114px;
+	}
+
+	/* Mobile */
+
+	@include mobile {
+		padding-top: 89px;
+	}
+}

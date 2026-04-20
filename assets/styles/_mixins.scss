@@ -1,0 +1,33 @@
+/* ------------------------------------------------------------ *\
+	Mixins
+\* ------------------------------------------------------------ */
+
+@mixin media($screenSize) {
+	@media(max-width: $screenSize) {
+		@content
+	}
+}
+
+@mixin mobilexs {
+	@include media($screen-xs) {
+		@content
+	}
+}
+
+@mixin mobile {
+	@include media($screen-sm) {
+		@content
+	}
+}
+
+@mixin tablet {
+	@include media($screen-md) {
+		@content
+	}
+}
+
+@mixin smalldesktop {
+	@include media($screen-sd) {
+		@content
+	}
+}

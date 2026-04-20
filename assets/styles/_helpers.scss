@@ -1,0 +1,57 @@
+/* ------------------------------------------------------------ *\
+	Helpers
+\* ------------------------------------------------------------ */
+
+[class*="fade"] {
+	opacity: 0;
+	visibility: hidden;
+	transition: transform 1.2s, opacity 1.2s, visibility 1.2s;
+
+	&.animated {
+		transform: translate(0, 0);
+		opacity: 1;
+		visibility: visible;
+	}
+}
+
+.fadeup {
+	transform: translate(0, 30%);
+}
+.fadeleft {
+	transform: translate(-30%, 0);
+}
+.faderight {
+	transform: translate(30%, 0);
+}
+
+@media(max-width: 767px){
+	[data-group] {
+		transition-delay: 0s !important;
+	}
+}
+
+.hidden {
+	display: none !important;
+}
+
+/* ------------------------------------------------------------ *\
+	Background
+\* ------------------------------------------------------------ */
+
+.background {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 96%;
+	z-index: -1; 
+	height: 100%;
+	display: inline-block;
+	transform: translateX(-50%);
+	background: url(../images/temp/grey-gradient.jpg) repeat-x;
+
+	/* Small Desktop */
+
+	@include smalldesktop {
+		width: 100%;
+	}
+}

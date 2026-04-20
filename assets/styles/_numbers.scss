@@ -1,0 +1,57 @@
+/* ------------------------------------------------------------ *\
+	Numbers
+\* ------------------------------------------------------------ */
+
+.numbers {
+	padding-bottom: 60px; 
+
+	.numbers__content {
+		h3 {
+			position: relative; 
+			display: inline-block; 
+			width: 175px; 
+			height: 175px;
+			margin-bottom: 16px; 
+			border-radius: 50%; 
+			background: linear-gradient(to left, rgba(107,221,217,1) 0%,rgba(95,203,215,1) 100%);
+			line-height: 175px; 
+
+			/* Tablet */
+			
+			@include tablet {
+				width: 150px; 
+				height: 150px; 
+				line-height: 150px; 
+			}
+
+			&:before {
+				content: '';
+				position: absolute;
+				top: 4px; 
+				left: 4px;  
+				display: inline-block;
+				width: 167px; 
+				height: 167px; 
+				border-radius: 50%;
+				background: #fff;
+
+				/* Tablet */
+				
+				@include tablet {
+					width: 142px; 
+					height: 142px; 
+				}
+			}
+
+			span {
+				position: relative; 
+				z-index: 3; 
+				top: -4px; 
+			}
+		}
+
+		p {
+			font-size: 16px; 
+		}
+	}
+}

@@ -1,0 +1,407 @@
+/* ------------------------------------------------------------ *\
+	Nav
+\* ------------------------------------------------------------ */
+
+.nav {
+	/* Mobile */
+
+	@include mobile {
+		position: fixed;
+		top: 0;
+		left: 65px;
+		z-index: 12;
+		width: calc(100% - 65px);
+		height: 100%;
+		padding: 155px 0 50px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		overflow-y: auto;
+		background: #fff;
+		opacity: 0;
+		visibility: hidden;
+		transition: opacity .3s, visibility .3s;
+
+		&.nav--visible {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+
+	> ul {
+		display: flex;
+		margin-bottom: 0;
+		padding-top: 14px;
+		font-size: 15px;
+		color: $grey;
+
+		/* Tablet */
+
+		@include tablet {
+			font-size: 13px;
+		}
+
+		/* Mobile */
+
+		@include mobile {
+			display: block;
+			width: 100%;
+			font-size: 15px;
+			padding-bottom: 30px;
+		}
+
+		> li {
+			padding-bottom: 20px;
+
+			/* Tablet */
+
+			@include tablet {
+				padding-bottom: 10px;
+			}
+
+			/* Mobile */
+
+			@include mobile {
+				max-width: 100%;
+				flex: 0 0 100%;
+				padding-bottom: 0;
+			}
+
+			&:nth-child(n+4) {
+				&.menu-item-has-children {
+					.sub-menu {
+						ul {
+							left: auto; 
+							right: 100%; 
+						}
+					}
+				}				
+			}
+
+			+ li {
+				margin-left: 38px;
+
+				/* Tablet */
+
+				@include tablet {
+					margin-left: 20px;
+				}
+
+				/* Mobile */
+
+				@include mobile {
+					margin: 23px 0 0 0;
+				}
+			}
+		}
+
+		a {
+			color: inherit;
+
+			&:hover {
+				color: $blue;
+			}
+		}
+	}
+
+	.menu-item-has-children {
+		position: relative;
+
+		.dd-show {
+			opacity: 1;
+			visibility: visible;
+			max-height: 324px;
+			height: auto;
+		}
+
+		&.dd-visible {
+			opacity: 1;
+			visibility: visible;
+		}
+
+		> a {
+			&:after {
+				content: '';
+				position: relative;
+				display: inline-block;
+				top: -2px;
+				left: 2px; 
+				width: 5px;
+				height: 5px;
+				margin-left: 5px;
+				border-top: 2px solid $blue;
+				border-right: 2px solid $blue;
+				transform: rotate(135deg);
+
+				/* Mobile */
+				
+				@include mobile {
+					&:hover {
+						border-color: $grey;
+					}
+				}
+			}
+		}
+
+		.sub-menu {
+			/* Mobile */
+			
+			@include mobile {
+				background-color: transparent; 
+
+				&.dd-show {
+					padding: 7px 0; 
+
+					> ul {
+						padding: 0 0 10px; 
+					}
+				}
+			}
+
+			a {
+				&:after {
+					border-color: #fff;
+
+					/* Mobile */
+					
+					@include mobile {
+						border-color: $grey;
+					}
+				}
+			}
+
+			ul {
+				top: -17px; 
+				left: 100%;
+				background: #0e3b7b;
+
+				/* Tablet */
+				
+				@include tablet {
+					top: -12px; 
+				}
+				/* Mobile */
+				
+				@include mobile {
+					background-color: transparent; 
+				}
+
+				a {
+					background: #0e3b7b; 
+
+					/* Mobile */
+					
+					@include mobile {
+						background-color: transparent; 
+					}
+					
+					&:hover {
+						background: #224d89;
+
+						/* Mobile */
+						
+						@include mobile {
+							color: $blue;
+							background-color: transparent; 
+						}
+					} 
+				}  
+			}
+		}
+
+		ul {
+			position: absolute;
+			top: 100%;
+			left: -70px;
+			z-index: 20;
+			padding: 17px 0;
+			background: $blue;
+			color: #fff;
+			box-shadow: 0px 5px 15px 0px rgba(36, 14, 10, .2);
+			width: 220px;
+			list-style: none;
+			font-size: 14px;
+			transform: translateY(20px);
+			opacity: 0;
+			visibility: hidden;
+			transition: opacity .3s, visibility .3s, transform .6s, max-height .6s, height .6s, padding .6s;
+			transition: .5s;
+
+			/* Tablet */
+
+			@include tablet {
+				left: -40px; 
+				width: 170px;
+				padding: 12px 0;  
+				font-size: 13px;
+			}
+
+			/* Mobile */
+
+			@include mobile {
+				position: static;
+				width: 100%;
+				max-height: 0;
+				background: #fff;
+				padding: 0;
+				margin: 0;
+				color: $blue;
+				box-shadow: none;
+				transform: translateY(0);
+			}
+
+			a {
+				display: inline-block; 
+				width: 100%; 
+				margin-bottom: 3px; 
+				padding: 12px 23px; 
+				background: #002559;
+
+				/* Tablet */
+				
+				@include tablet {
+					padding: 8px 15px; 
+				}
+				/* Mobile */
+				
+				@include mobile {
+					margin: 0; 
+					padding: 3px 15px; 
+					background-color: transparent; 
+				}
+
+				&:hover {
+					color: #fff;
+					background: #0e3b7b; 
+
+					/* Mobile */
+					
+					@include mobile {
+						color: $grey;
+						background-color: transparent; 
+					}
+				}
+			}
+		}
+
+		@media(min-width: 768px) {
+			&:hover {
+				> ul {
+					transform: translateY(0);
+					opacity: 1;
+					visibility: visible;
+				}
+			}
+		}
+	}
+}
+
+/* ------------------------------------------------------------ *\
+	Nav Lang
+\* ------------------------------------------------------------ */
+
+.nav-lang {
+	float: right;
+	font-size: 12px;
+	color: $blue;
+
+	/* Mobile */
+
+	@include mobile {
+		float: left;
+		position: absolute;
+		left: 93px;
+		top: 32px;
+		pointer-events: all;
+		opacity: 0;
+		visibility: hidden;
+		transition: .3s;
+	}
+
+	> ul {
+		display: flex;
+		margin-bottom: 1px;
+		list-style: none;
+
+		> li {
+			position: relative;
+			padding: 0 5px;
+
+			&.has-dd {
+
+				&.dd-show {
+					ul {
+						opacity: 1;
+						visibility: visible;
+						max-height: 324px;
+						height: auto;
+					}
+				}
+
+				> a {
+					&:after {
+						content: '';
+						position: relative;
+						display: inline-block;
+						width: 5px;
+						height: 5px;
+						margin-left: 5px;
+						top: -3px;
+						left: 3px;
+						border-top: 2px solid $blue;
+						border-right: 2px solid $blue;
+						transform: rotate(135deg);
+					}
+				}
+			}
+
+			ul {
+				position: absolute;
+				top: 100%;
+				right: 0px;
+				z-index: 20;
+				padding: 10px;
+				background: $blue;
+				color: #fff;
+				border-radius: 5px;
+				list-style: none;
+				transform: translateY(20px);
+				opacity: 0;
+				visibility: hidden;
+				transition: opacity .3s, visibility .3s, transform .6s;
+
+				@include mobile {
+					position: static;
+					width: 100%;
+					max-height: 0;
+					background: #fff;
+					padding: 4px 0 0;
+					margin: 0;
+					color: $blue;
+					transform: translateY(0);
+
+				}
+
+				a {
+					&:hover {
+						color: #ccc;
+					}
+				}
+			}
+
+			@media(min-width: 768px){
+				&:hover {
+					ul {
+						transform: translateY(0);
+						opacity: 1;
+						visibility: visible;
+					}
+				}
+			}
+
+			a {
+				color: inherit;
+			}
+		}
+	}
+}

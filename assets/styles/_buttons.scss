@@ -1,0 +1,347 @@
+/* ------------------------------------------------------------ *\
+	Buttons
+\* ------------------------------------------------------------ */
+
+.link-opacity {
+	display: block;
+	width: 100%;
+	height: 100%;
+	transition: all .3s;
+
+	&:hover {
+		opacity: .8;
+	}
+}
+
+.btn {
+	display: inline-block;
+	height: 50px;
+	min-width: 128px;
+	padding: 0 35px;
+	border: 2px solid $blue;
+	border-radius: 24px;
+	background-color: transparent;
+	font-family: $mont;
+	font-weight: normal;
+	font-size: 14px;
+	color: $blue;
+	line-height: 48px;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	appearance: none;
+	transition: .5s;
+
+	/* Tablet */
+
+	@include tablet {
+		min-width: auto;
+		padding: 0 25px;
+		font-size: 13px;
+	}
+
+	/* Mobile */
+
+	@include mobile {
+		font-size: 14px;
+	}
+
+	&:hover {
+		background-color: $blue;
+		color: #fff;
+	}
+
+	&:active,
+	&:visited,
+	&:focus {
+		outline: 0;
+		box-shadow: none;
+	}
+
+	&.btn--white {
+		padding: 0 33px;
+		color: #fff;
+		border-color: #fff;
+
+		/* Mobile */
+
+		@include mobile {
+			padding: 0 35px;
+			border-color: $blue;
+			color: $blue;
+		}
+
+		&:hover {
+			border-color: $blue;
+			color: #fff;
+		}
+	}
+
+	&.btn--blue {
+		position: relative;
+		padding: 0 41px;
+		background: #fff;
+		border-color: transparent;
+		border: 0;
+		background: linear-gradient(to left, rgba(107,221,217,1) 0%,rgba(95,203,215,1) 100%);
+		line-height: 50px;
+		color: #fff;
+
+		span {
+			position: relative;
+			z-index: 4;
+			transition: .5s;
+		}
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: linear-gradient(to left, rgba(107,221,217,1) 0%,rgba(95,203,215,1) 100%);
+			display: inline-block;
+			width: 100%;
+			height: 100%;
+			border-radius: 24px;
+			opacity: 1;
+			visibility: visible;
+			transition: .5s;
+		}
+
+		&:after {
+			content: '';
+			position: absolute;
+			top: 2px;
+			left: 2px;
+			background: #fff;
+			display: inline-block;
+			width: calc(100% - 4px);
+			height: 46px;
+			border-radius: 24px;
+			opacity: 0;
+			visibility: hidden;
+			transition: .5s;
+		}
+
+		&:hover {
+			span {
+				color: #4eccd9;
+			}
+
+			&:before {
+				opacity: 0;
+				visibility: hidden;
+			}
+
+			&:after {
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+
+		&:not(:disabled):not(.disabled):active {
+			background: linear-gradient(to right, rgba(129 ,219 , 214, 1) 0%,rgba(4, 174, 216, 1) 100%);
+		}
+	}
+
+	&.btn--large {
+		/* Mobile */
+
+		@include mobile {
+			line-height: 1.2;
+			width: 100%;
+
+			span {
+				max-width: 180px;
+				margin: 0 auto;
+				display: block;
+				padding-top: 9px;
+				white-space: normal;
+			}
+		}
+	}
+}
+
+/* ------------------------------------------------------------ *\
+	Button Play
+\* ------------------------------------------------------------ */
+
+.btn-play {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 14;
+	display: inline-block;
+	width: 110px;
+	height: 110px;
+	border: 2px solid transparent;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, .8);
+	text-align: center;
+	cursor: pointer;
+	line-height: 106px;
+	text-decoration: none;
+	transform: translate(-50%, -50%);
+	transition: background .5s;
+
+	&:hover {
+		background: rgba(255, 255, 255, 1);
+	}
+
+	i {
+		width: 22px; 
+		height: 29px; 
+	}
+
+	&.btn-play--small {
+		width: 100px;
+		height: 100px;
+		line-height: 96px;
+
+		i {
+			width: 17px;
+			height: 21px;
+		}
+	}
+}
+
+/* ------------------------------------------------------------ *\
+	Button Close Modal
+\* ------------------------------------------------------------ */
+
+.btn-close-modal {
+	position: absolute;
+	top: -71px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: inline-block;
+	width: 55px;
+	height: 55px;
+	border: 2px solid #7085a1;
+	background: rgba(255, 255, 255, .2);
+	border-radius: 50%;
+	transition: .2s;
+
+	&.btn-close-modal--blue {
+		top: 28px;
+		left: auto;
+		right: -13px;
+		width: 52px;
+		height: 52px;
+		z-index: 20;
+		background-color: transparent;
+		border-color: #e5e5e5;
+
+		/* Tablet */
+
+		@include tablet {
+			right: 5px;
+		}
+
+		/* Mobile */
+
+		@include mobilexs {
+			padding-top: 2px;
+			padding-left: 1px;
+		}
+
+		&:hover {
+			border-color: #21c8e6;
+		}
+
+		span {
+			width: 14px;
+			background: #21c8e6;
+
+			&:nth-child(1) {
+				transform: translate(17px, 3px) rotate(-45deg);
+			}
+
+			&:nth-child(2) {
+				transform: translate(-2px, 3px) rotate(45deg);
+			}
+		}
+	}
+
+	span {
+		position: relative;
+		top: 3px;
+		display: inline-block;
+		width: 18px;
+		height: 2px;
+		background: #fdfbf8;
+		transition: .2s;
+
+		&:nth-child(1) {
+			transform: translate(12px, 5px) rotate(-45deg);
+		}
+
+		&:nth-child(2) {
+			transform: translate(-11px, 5px) rotate(45deg);
+		}
+	}
+
+	&:hover {
+		border-color: #fff;
+	}
+
+}
+
+/* ------------------------------------------------------------ *\
+	Button Menu
+\* ------------------------------------------------------------ */
+
+.btn-menu {
+	position: absolute;
+	top: 19px;
+	right: 20px;
+	z-index: 55;
+	display: none;
+	width: 50px;
+	height: 50px;
+	padding: 19px 0 0 15px;
+	border: 2px solid #ddd;
+	background: #fff;
+	border-radius: 50%;
+	transition: .5s;
+
+	/* Mobile */
+
+	@include mobile {
+		display: inline-block;
+	}
+
+	span {
+		display: block;
+		width: 16px;
+		height: 2px;
+		margin-bottom: 4px;
+		background: $blue;
+		transition: .2s;
+
+		&:nth-child(1) {
+			transform: 0;
+		}
+
+		&:nth-child(2) {
+			transform: 0;
+		}
+	}
+
+	&:hover {
+		background: #fafafa;
+	}
+
+	&.btn-menu--close {
+		span {
+			&:nth-child(1) {
+				transform: translate(0px, 3px) rotate(-45deg);
+			}
+
+			&:nth-child(2) {
+				transform: translate(0px, -3px) rotate(45deg);
+			}
+		}
+	}
+}

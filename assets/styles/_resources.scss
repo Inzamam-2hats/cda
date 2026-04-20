@@ -1,0 +1,79 @@
+/* ------------------------------------------------------------ *\
+	Resources
+\* ------------------------------------------------------------ */
+
+.resources {
+	padding: 15px 0 100px;
+
+	&.resources--small {
+		padding-bottom: 77px; 
+	} 
+}
+
+/* ------------------------------------------------------------ *\
+	Resource
+\* ------------------------------------------------------------ */
+
+.resource {
+	margin: 0 -30px; 
+	padding: 43px 0 51px; 
+	border-bottom: 1px solid #ddd;
+
+	/* Tablet */
+	
+	@include tablet {
+		margin: 0; 
+	}
+
+	/* Mobile */
+	
+	@include mobile {
+		margin: 0; 
+		flex-wrap: wrap;
+		text-align: center; 
+	}
+
+	&:first-of-type {
+		border-top: 1px solid #ddd;
+	}
+
+	.resource__content {
+		font-size: 14px; 
+		max-width: 350px;
+		flex: 0 0 350px;
+		line-height: 1.71;
+
+		/* Mobile */
+		 
+		 @include mobile {
+		 	max-width: 100%;
+		 	flex: 0 0 100%;
+		 } 
+
+		h5 {
+			margin-bottom: 20px; 
+		}
+
+		p {
+			margin-bottom: 0; 
+
+			/* Mobile */
+			
+			@include mobile {
+				margin-bottom: 20px; 
+			}
+		}
+	}
+
+	.resource__actions {
+		/* Mobile */
+		
+		@include mobile {
+			margin: 0 auto;  
+		}
+
+		.btn {
+			min-width: 200px;
+		}
+	}
+}

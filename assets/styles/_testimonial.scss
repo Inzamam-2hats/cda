@@ -1,0 +1,55 @@
+/* ------------------------------------------------------------ *\
+	Testimonial
+\* ------------------------------------------------------------ */
+
+.testimonial {
+	padding: 120px 0 133px; 
+	max-width: 800px;
+	margin: 0 auto; 
+	text-align: center; 
+	font-family: $merri; 
+	font-weight: normal; 
+	font-size: 22px;
+	line-height: 1.5;  
+	color: $blue;
+
+	/* Tablet */
+	
+	@include tablet {
+		padding: 120px 70px 133px;
+	}
+
+	/* Mobile */
+	
+	@include mobile {
+		padding: 158px 0 28px; 	
+	}
+
+	i {
+		margin-bottom: 50px; 
+
+		/* Mobile */
+		
+		@include mobile {
+			margin-bottom: 45px; 
+		}
+	}
+	
+	p {
+		/* Mobile */
+			
+		@include mobile {
+			margin-bottom: 78px; 
+			line-height: 1.49; 
+		}
+
+		em {
+			font-style: italic;
+		}
+	}
+	span {
+		font-family: $mont;
+		font-size: 12px; 
+		color: $grey; 
+	}
+}

@@ -1,0 +1,157 @@
+/* ------------------------------------------------------------ *\
+	Tour
+\* ------------------------------------------------------------ */
+
+.tour {
+	display: block !important;
+
+	.btn-close-modal {
+		top: 30px;
+		left: auto;
+		right: 25px;
+		transform: none;
+		width: 60px;
+		height: 60px;
+		padding-left: 6px;
+
+		@media(max-width: 1350px) {
+			right: 10%;
+		}
+
+		/* Tablet */
+
+		 @include tablet {
+		 	top: 20px;
+		 }
+
+		span {
+			top: 5px;
+			width: 19px;
+		}
+	}
+
+	#sceneList {
+		position: static;
+		width: 100%;
+		margin-left: 0;
+		padding-top: 100px;
+
+		/* Mobile */
+
+		@include mobile {
+			height: auto;
+			padding-top: 20px;
+		}
+
+		.scenes {
+			display: flex;
+			max-width: 100%;
+			justify-content: center;
+			color: #fff;
+			background-color: transparent;
+
+			/* Mobile */
+
+			@include mobile {
+				flex-wrap: wrap;
+			}
+
+			li {
+				width: auto;
+
+				/* Mobile */
+
+				@include mobile {
+					max-width: 100%;
+					flex: 0 0 100%;
+					padding: 0 40px;
+					text-align: center;
+				}
+
+				&.hidden {
+					display: none;
+				}
+
+				+ li {
+					margin-left: 30px;
+
+					/* Mobile */
+
+					@include mobile {
+						margin: 15px 0 0;
+					}
+				}
+
+				a {
+					display: inline-block;
+					min-width: 186px;
+					height: 50px;
+					border: 2px solid #fff;
+					border-radius: 24px;
+					background-color: transparent;
+					font-family: $mont;
+					font-weight: normal;
+					font-size: 14px;
+					color: #fff;
+					line-height: 48px;
+					vertical-align: middle;
+					text-align: center;
+					cursor: pointer;
+					text-decoration: none;
+					transition: .5s;
+
+					/* Mobile */
+
+					@include mobile {
+						padding: 0 10px;
+						min-width: auto;
+						max-width: 100%;
+					}
+
+					&:hover {
+						border-color: #fff;
+						background: #fff;
+						color: $blue;
+					}
+				}
+
+				span {
+					padding: 0;
+					line-height: 0;
+				}
+			}
+		}
+	}
+
+	.tour__inner {
+		position: relative;
+		width: 1290px;
+		height: 520px;
+		margin: 110px auto 0;
+		border-radius: 4px;
+		overflow: hidden;
+
+		@media(max-width: 1350px){
+			max-width: 80%;
+		}
+
+		/* Tablet */
+
+		@include tablet {
+			margin-top: 100px;
+			height: 60vh;
+		}
+
+		/* Mobile */
+
+		@include mobile {
+			height: 50vh;
+		}
+
+		.tour__body {
+			max-width: 100%;
+			z-index: 50;
+			border-radius: 4px;
+		}
+	}
+}

@@ -1,0 +1,270 @@
+/* ------------------------------------------------------------ *\
+	Intro
+\* ------------------------------------------------------------ */
+
+.intro {
+	margin-bottom: 50px;
+
+	/* Tablet */
+
+	@include tablet {
+		min-height: auto;
+		height: auto;
+	}
+
+	.container-fluid {
+		padding-right: 30px;
+		padding-left: 30px;
+
+		/* Small Desktop */
+
+		@include smalldesktop {
+			padding-left: 25px;
+			padding-right: 25px;
+		}
+	}
+
+	.intro__inner {
+		min-height: 745px;
+		height: calc(100vh - 150px);
+		position: relative;
+		overflow: hidden;
+		border-radius: 9px;
+
+		/* Small Desktop */
+
+		@include smalldesktop {
+			min-height: auto;
+			height: 75vh;
+		}
+		/* Tablet */
+
+		@include tablet {
+			height: 50vh;
+			min-height: 600px;
+		}
+
+		/* Mobile */
+
+		@include mobile {
+			min-height: auto;
+			height: auto;
+			border-radius: 0;
+			margin: 0 -33px 0;
+		}
+	}
+
+	.intro__image-container {
+		overflow: hidden;
+
+		/* Mobile */
+
+		@include mobile {
+			height: 400px;
+			margin-bottom: 60px;
+		}
+	}
+
+	.intro__image {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-size: cover;
+		background-position: center center;
+		animation: move 30s ease;
+		animation-delay: .4s;
+
+		/* Mobile */
+
+		@include mobile {
+			position: relative;
+			height: 400px;
+		}
+
+		&:before {
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			z-index: 6;
+			display: inline-block;
+			width: 40%;
+			height: 100%;
+			background: linear-gradient(to right, rgba(51, 51, 51, .5) 0%, rgba(57, 57, 57, .41) 21%, rgba(60, 60, 60, .39) 27%, rgba(83, 83, 83, .09) 76%, rgba(84, 84, 84, .07) 80%, rgba(90, 90, 90, 0) 100%);
+
+			/* Small desktop */
+
+			@include smalldesktop {
+				width: 80%;
+			}
+		}
+
+	}
+
+	@keyframes move {
+		0% {
+		    transform: scale(1.0);
+		}
+
+		70% {
+			transform: scale(1.2);
+		}
+
+		100% {
+			transform: scale(1.0);
+		}
+	}
+
+	.intro__content {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		z-index: 10;
+		padding: 0 0 80px 77px;
+		max-width: 575px;
+		color: #fff;
+
+		/* Tablet */
+
+		@include tablet {
+			padding: 0 0 30px 30px;
+		}
+
+		/* Mobile */
+
+		@include mobile {
+			position: static;
+			padding: 0 33px;
+			max-width: 100%;
+			color: $grey;
+		}
+
+		h1 {
+			padding-left: 3px;
+			margin-bottom: 24px;
+			color: #fff;
+			line-height: .85;
+
+			/* Tablet */
+
+			@include tablet {
+				margin-bottom: 15px;
+				line-height: 0.88;
+			}
+
+			/* Mobile */
+
+			@include mobile {
+				margin-bottom: 30px;
+				color: $blue;
+			}
+		}
+
+		h2 {
+			color: #fff;
+		}
+
+		p {
+			margin-bottom: 30px;
+
+			/* Tablet */
+
+			@include tablet {
+				margin-bottom: 20px;
+			}
+			/* Mobile */
+
+			@include mobile {
+				margin-bottom: 31px;
+			}
+		}
+
+		.btn {
+			@include mobilexs {
+				width: 100%;
+			}
+
+			&.btn--blue {
+				&:after {
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 50px;
+					border: 2px solid #fff;
+					background-color: transparent;
+				}
+
+				&:hover {
+					span {
+						color: #fff;
+					}
+				}
+			}
+
+			&.btn--white {
+				&:hover {
+					border-color: #fff;
+					background: #fff;
+					color: $blue;
+				}
+			}
+
+			+ .btn {
+				margin-left: 17px;
+
+				/* Mobile */
+
+				@include mobile {
+					margin-left: 16px;
+				}
+
+				@include mobilexs {
+					margin: 15px 0 0;
+				}
+			}
+		}
+	}
+
+	&.intro--plain {
+		.intro__inner {
+			min-height: auto;
+			height: 65vh;
+
+			/* Mobile */
+
+			@include mobile {
+				height: 400px;
+			}
+		}
+
+		.intro__content {
+			position: absolute;
+			padding: 0 0 38px 77px;
+			max-width: 100%;
+
+			p {
+				padding-left: 2px;
+				font-family: $roboto;
+				font-size: 14px;
+			}
+
+			/* Tablet */
+
+			@include tablet {
+				color: #fff;
+
+				p {
+					margin-bottom: 15px;
+				}
+			}
+
+			/* Mobile */
+
+			@include mobile {
+				padding: 0 10px 20px 30px;
+			}
+		}
+	}
+}

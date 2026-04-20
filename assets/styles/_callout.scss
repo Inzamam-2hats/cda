@@ -1,0 +1,129 @@
+/* ------------------------------------------------------------ *\
+	Callout
+\* ------------------------------------------------------------ */
+
+.callout {
+	padding-top: 56px;
+
+	p {
+		margin-bottom: 40px;
+	}
+
+	.callout__inner {
+		border: 2px solid $blue;
+		border-radius: 4px;
+	}
+
+	.callout__content {
+		max-width: 780px;
+		margin: 0 auto;
+		padding-bottom: 100px;
+		font-size: 16px;
+
+		&.callout__content--grey {
+			p {
+				color: #999;
+			}
+		}
+	}
+
+	&.callout--alt {
+		padding: 70px 0;
+
+		ul {
+			display: flex;
+			justify-content: center;
+			margin-right: 4px;
+			margin-bottom: 0;
+			padding-top: 21px;
+			list-style: none;
+			font-size: 14px;
+
+			/* Mobile */
+
+			@include mobile {
+				flex-wrap: wrap;
+			}
+
+			@include mobilexs {
+
+				a[href^="mailto"] {
+					font-size: 12px;
+				}
+			}
+
+			li {
+				position: relative;
+
+				/* Mobile */
+
+				@include mobile {
+					flex: 0 0 100%;
+					max-width: 100%;
+				}
+
+				+ li {
+					margin-left: 130px;
+
+					/* Mobile */
+
+					@include mobile {
+						margin-left: 0;
+					}
+
+					&:before {
+						content: '';
+						position: absolute;
+						top: -14px;
+						left: -69px;
+						display: inline-block;
+						width: 1px;
+						height: 100px;
+						background: #ccc;
+					}
+				}
+
+				h6 {
+					margin-bottom: 7px;
+					font-family: $mont;
+					font-size: 16px;
+					font-weight: bold;
+				}
+
+				p {
+					margin-bottom: 23px;
+				}
+			}
+		}
+
+		.callout__inner {
+			margin: 0 30px;
+
+			/* Tablet */
+
+			@include tablet {
+				margin: 0;
+			}
+
+			/* Mobile */
+
+			@include mobile {
+				padding: 0 20px;
+			}
+
+			@include mobilexs {
+				padding: 0 12px;
+			}
+		}
+
+		.callout__content {
+			max-width: 525px;
+			padding: 62px 0;
+
+			&.callout__content--large {
+				max-width: 660px;
+				font-size: 17px;
+			}
+		}
+	}
+}

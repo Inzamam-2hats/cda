@@ -1,0 +1,26 @@
+/* ------------------------------------------------------------ *\
+	Variables
+\* ------------------------------------------------------------ */
+
+$blue                    : #002559;
+$grey                    : #888;
+$light-grey				 : #eeeeee;
+$gradient                : linear-gradient(to right, rgba(78, 204, 217, 1) 0%,rgba(89, 223, 218, 1) 100%);
+
+$merri                   : 'Merriweather', serif;
+$roboto                  : 'Roboto', sans-serif;
+$mont                    : 'Montserrat', sans-serif;
+$satisfy                 : 'Satisfy', cursive;
+
+$font-family-sans-serif  : $mont;
+$font-family-serif       : $merri;
+
+$font-size-base          : 17px;
+$line-height-base        : 1.59;
+
+$container-max-width     : 1410px;
+
+$screen-xs               : 374px;
+$screen-sm               : 767px;
+$screen-md               : 991px;
+$screen-sd               : 1279px;

@@ -1,0 +1,147 @@
+/* ------------------------------------------------------------ *\
+	Footer
+\* ------------------------------------------------------------ */
+
+.footer {
+	padding-top: 50px;
+
+	.contacts {
+		padding-bottom: 7px; 
+
+		/* Mobile */
+		
+		@include mobile {
+			padding-bottom: 14px; 
+		}
+
+		ul {
+			list-style: none;
+		}
+	}
+
+	.socials {
+		padding-top: 0; 
+		
+		&.hidden-xs {
+			display: block !important; 
+
+			/* Mobile */
+			
+			@include mobile {
+				display: none !important; 
+			}
+		}
+		&.hidden-lg {
+			display: none !important; 
+
+			/* Mobile */
+			
+			@include mobile {
+				margin: 0; 
+				display: block !important; 
+			}
+		}
+	}
+
+	.list-unstyled {
+		padding-top: 11px;
+
+		/* Mobile */
+		
+		@include mobile {
+			padding: 0; 
+		}
+
+		ul {
+			padding-left: 8px;
+			margin-bottom: 24px;  
+			font-size: 14px; 
+			font-family: inherit; 
+			color: #bbb;
+			list-style: none; 
+		}
+	}
+
+	/* Tablet */
+
+	@include tablet {
+		white-space: nowrap;
+
+		.col-md-4 {
+			margin-right: -20px;
+		}
+	}
+
+	/* Mobile */
+
+	@include mobile {
+		padding-top: 55px;
+
+		.col-xs-12 {
+			padding-bottom: 4px;
+		}
+	}
+
+	.footer__content {
+		padding-bottom: 73px;
+		font-size: 14px;
+		line-height: 1.75;
+
+		/* Tablet */
+
+		@include tablet {
+			font-size: 12px;
+		}
+
+		/* Mobile */
+
+		@include mobile {
+			font-size: 14px;
+			padding-bottom: 55px;
+		}
+
+		h6 {
+			font-family: $mont;
+			font-weight: bold;
+			margin-bottom: 20px;
+		}
+
+		a {
+			color: inherit;
+
+			&:hover {
+				color: $blue;
+			}
+
+			&[href^="mailto"] {
+				color: #4eccd9;
+
+				&:hover {
+					color: $blue;
+				}
+			}
+		}
+	}
+
+	.footer__bar {
+		padding: 22px 0 12px;
+		border-top: 1px solid #eee;
+		font-size: 12px;
+
+		/* Mobile */
+
+		@include mobile {
+			padding-top: 20px;
+		}
+
+		p {
+			margin-bottom: 10px;
+		}
+	}
+
+	&.footer--large {
+		padding-top: 93px;
+
+		border-top: 1px solid #eee;
+	}
+}

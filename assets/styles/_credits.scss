@@ -1,0 +1,23 @@
+/* ------------------------------------------------------------ *\
+	Credits
+\* ------------------------------------------------------------ */
+
+.credits {
+	float: right; 
+
+	/* Mobile */
+	
+	@include mobile {
+		float: none; 
+		width: 100%; 
+		text-align: center; 
+	}
+
+	a {
+		color: inherit;
+
+		&:hover {
+			color: $blue;
+		}
+	}
+}

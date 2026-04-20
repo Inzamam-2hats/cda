@@ -1,0 +1,244 @@
+/* ------------------------------------------------------------ *\
+	Header
+	\* ------------------------------------------------------------ */
+
+	.header {
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 60;
+		width: 100%;
+		padding-top: 30px; 
+		height: 114px;
+		background: #fff;
+		transition: .3s;
+
+		/* Mobile */
+
+		@include mobile {
+			height: 89px;
+			padding-top: 0;
+
+			&:after {
+				content: '';
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 65px;
+				height: 100%;
+				background: rgba(0, 37, 89, .5);
+				opacity: 0;
+				visibility: hidden;
+				transition: .3s;
+			}
+		}
+
+		&.header--alt {
+			.header__content {
+				padding-bottom: 15px;
+				border-bottom: 1px solid #eee;
+			}
+		}
+
+		&.header--secondary {
+			padding-top: 0;
+			height: 84px;
+		}
+
+		&.scroll {
+			padding-top: 0;
+			height: 114px;
+
+			.header__bar {
+				transform: translateY(-30px);
+				opacity: 0;
+				visibility: hidden;
+			}
+
+			/* Mobile */
+
+			@include mobile {
+				.header__bar {
+					transform: none;
+					opacity: 1;
+					visibility: visible;
+				}
+			}
+		}
+
+		&.bar-visible {
+			.nav-lang {
+				visibility: visible;
+				opacity: 1;
+			}
+
+			&:after {
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+
+		.container-fluid {
+			padding-right: 30px;
+			padding-left: 30px;
+
+			/* Small Desktop */
+
+			@include smalldesktop {
+				padding-left: 25px;
+				padding-right: 25px;
+			}
+		}
+
+		.header__bar {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 30px;
+			padding: 5px 15px;
+			background: #eee;
+			transition: .3s;
+
+			/* Mobile */
+
+			@include mobile {
+				position: fixed;
+				top: 0;
+				left: 0;
+				z-index: 15;
+				width: 100%;
+				background: transparent;
+				transform: none;
+				pointer-events: none;
+			}
+		}
+
+		.header__content {
+			position: relative;
+			padding: 17px 0;
+
+			.logo {
+				float: left;
+			}
+
+			.header__inner {
+				float: right;
+				display: flex;
+
+				/* Mobile */
+
+				@include mobile {
+					float: none;
+					display: block;
+				}
+			}
+
+			.btn-modal {
+				margin-left: 32px;
+
+				/* Tablet */
+
+				@include tablet {
+					margin-left: 15px;
+				}
+
+				/* Mobile */
+
+				@include mobile {
+					width: 100%;
+					margin: 0 22px 50px;
+				}
+			}
+
+			.btn-donate {
+				margin-left: 32px;
+
+				/* Tablet */
+
+				@include tablet {
+					margin-left: 15px;
+				}
+
+				/* Mobile */
+
+				@include mobile {
+					width: 100%;
+					margin: 0 22px 50px;
+				}
+			}
+		}
+	}
+
+	.header-top{
+		position: relative;
+		z-index: 100;
+		// background-color: #f6f6f6;
+		padding: 5px 15px;
+		text-align: right;
+		.wpml-ls{
+			display: inline-block;
+			width:auto;
+			font-size: 13px;
+			max-width: 120px;
+			a{
+				border-color: transparent;
+				// background-color: transparent;
+				img{
+					width:auto !important;
+					height:10px;
+				}
+				:hover{
+					background-color: transparent;
+				}
+			}
+			.wpml-ls-sub-menu{
+				border-top-color : transparent;
+				position: absolute;
+				top: calc(100% + 10px);
+				left: -50px;
+				z-index: 20;
+				padding: 5px;
+				background: #002559;
+				color: #fff;
+				box-shadow: 0px 5px 15px 0px rgba(36,14,10,0.2);
+				width: 170px;
+				list-style: none;
+				font-size: 14px;
+				transform: translateY(20px);
+				opacity: 0;
+				visibility: hidden;
+				transition: opacity .3s, visibility .3s, transform .6s, max-height .6s, height .6s, padding .6s;
+				transition: .5s;
+				a {
+					display: inline-block;
+					width: 100%;
+					margin-bottom: 3px;
+					padding: 5px 10px;
+					background: #002559;
+					.wpml-ls-flag{
+						display: inline;
+						vertical-align: baseline;
+						width: 18px;
+						height: 12px;
+					}
+					.wpml-ls-native{
+						color: #fff;
+					}
+					&:hover{
+						color: #fff;
+						background: #0e3b7b;						
+					}
+				}				
+			}	
+			:hover{
+				> ul {
+
+					transform: translateY(0);
+					opacity: 1;
+					visibility: visible;
+
+				}				
+			}
+		}
+	}

@@ -1,0 +1,44 @@
+/* ------------------------------------------------------------ *\
+	Container
+\* ------------------------------------------------------------ */
+
+.container {
+	max-width: $container-max-width;
+	margin: auto;
+
+	@media(max-width: 1024px){
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	/* Mobile */
+
+	@include mobile {
+		padding-left: 33px;
+		padding-right: 33px;
+	}
+
+	&.container--sm {
+		max-width: 1200px;
+	}
+
+	&.container--xs {
+		max-width: 1060px;
+	}
+
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+		line-height: 0;
+	}
+}
+
+.container-fluid {
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+		line-height: 0;
+	}
+}

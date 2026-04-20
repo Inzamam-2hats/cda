@@ -1,0 +1,173 @@
+/* ------------------------------------------------------------ *\
+	Base
+\* ------------------------------------------------------------ */
+
+body {
+	position: static; 
+	min-width: 320px;
+	background: #fff;
+	font-family: $font-family-sans-serif;
+	font-weight: normal;
+    font-style: normal;
+	font-size: $font-size-base;
+	line-height: $line-height-base;
+	color: $grey;
+	overflow: auto;
+
+	&.modal-open {
+		padding-right: 0 !important; 
+		overflow: hidden;
+		position: fixed; 
+	}
+
+	&.sticky {
+		padding-top: 114px; 
+
+		/* Mobile */
+		
+		@include mobile {
+			padding-top: 89px; 
+		}
+	}
+}
+
+a {
+	color: #4eccd9;
+	text-decoration: none;
+	transition: .3s;
+
+	&:hover,
+	&[href^="mailto"]:hover,
+	&[href^="tel"]:hover {
+		text-decoration: none;
+		color: $blue;
+	}
+
+	&[href^="tel"] {
+		color: inherit;	
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: 0.8em;
+	font-family: $merri; 
+	font-weight: normal; 
+	color: $blue;
+}
+
+h1 {
+	font-size: 60px; 
+	line-height: 1.08;
+
+	strong {
+		font-size: 90px; 
+		padding: 0 6px; 
+		font-family: $satisfy; 
+		font-weight: normal; 
+	}
+}
+
+h2 {
+	font-size: 45px; 
+	line-height: 1.11; 
+}
+
+h3 {
+	font-size: 35px; 
+	line-height: 1.14; 
+}
+
+h4 {
+	font-size: 30px;
+	line-height: 1.17; 
+}
+h5 {
+	font-size: 22px; 
+	line-height: 1.27; 
+}
+
+h6 {
+	font-size: 14px; 
+	line-height: 1;
+}
+
+p,
+ul,
+ol,
+dl,
+hr,
+table,
+blockquote { 
+	margin-bottom: 1.59em;	
+}
+
+/* Tablet */
+
+@include tablet {
+	h1 {
+		font-size: 35px; 
+		line-height: 0.88; 
+
+		strong {
+			padding: 0; 
+			font-size: 50px; 
+		}
+	}
+
+	h2 {
+		font-size: 35px; 
+	}
+
+	h3 {
+		font-size: 35px; 
+	}
+
+	h4 {
+		font-size: 30px;
+	}
+
+	h5 {
+		font-size: 22px; 
+	}
+
+	h6 {
+		font-size: 14px; 
+	}
+}
+
+/* Mobile Xs*/
+
+@include mobilexs {
+	body {
+		font-size: 15px; 
+	}
+
+	h1 {
+		font-size: 30px; 
+
+		strong {
+			font-size: 45px; 
+		}
+	}
+
+	h2 {
+		font-size: 28px; 
+	}
+
+	h3 {
+		font-size: 28px; 
+	}
+
+	h4 {
+		font-size: 25px;
+	}
+
+	h5 {
+		font-size: 20px; 
+	}
+}
