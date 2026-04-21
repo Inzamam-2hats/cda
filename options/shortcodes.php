@@ -79,7 +79,7 @@ function crb_shortcode_button( $atts, $content ) {
 	ob_start();
 	?>
 
-	<a href="<?php echo esc_url( $atts['url'] ); ?>" class="btn <?php echo $atts['color'] === 'teal' ? 'btn--blue' : ''; ?>" target="<?php echo esc_attr( $atst['target'] ); ?>"><span><?php echo esc_html( $atts['text'] ); ?></span></a>
+	<a href="<?php echo esc_url( $atts['url'] ); ?>" class="btn <?php echo $atts['color'] === 'teal' ? 'btn--blue' : ''; ?>" target="<?php echo esc_attr( $atts['target'] ); ?>"><span><?php echo esc_html( $atts['text'] ); ?></span></a>
 
 	<?php
 	$html = ob_get_clean();
