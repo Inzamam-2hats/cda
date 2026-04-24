@@ -302,3 +302,7 @@
     right: 10px;
   }
 }
+
+.services .service__image {
+  overflow: hidden;
+}
