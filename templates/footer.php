@@ -60,7 +60,7 @@ $credits     = get_field( 'credits_text',     'option' );
 
 					<?php if ( ! empty( $footer_cols ) ) : ?>
 						<?php foreach ( $footer_cols as $col ) : ?>
-							<div class="col-xs-12 col-sm-12 col-md-2">
+							<div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
 								<?php if ( ! empty( $col['title'] ) ) : ?>
 									<h6>
 										<a href="<?php echo esc_url( $col['title']['url'] ); ?>" target="<?php echo ( $col['title']['target'] ); ?>">
@@ -95,7 +95,7 @@ $credits     = get_field( 'credits_text',     'option' );
 					<?php endif; ?>
 
 					<?php if ( ! empty( ! $disabled ) ) : ?>
-						<div class="col-xs-12 col-sm-12 col-md-2">
+						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
 							<div class="socials hidden-lg">
 								<ul>
 									<?php if ( ! empty( $facebook ) ) : ?>
@@ -131,7 +131,7 @@ $credits     = get_field( 'credits_text',     'option' );
 									<?php endif; ?>
 								</ul>
 							</div><!-- /.socials -->
-						</div><!-- /.col-xs-12 col-sm-12 col-md-2 -->
+						</div><!-- /.col-xs-12 col-sm-12 col-md-4 col-lg-3 -->
 					<?php endif; ?>
 				</div><!-- /.row -->
 			</div><!-- /.container -->

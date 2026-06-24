@@ -4,15 +4,17 @@
 
 $blue                    : #002559;
 $grey                    : #888;
+$body-color              : #2b2b2b;
 $light-grey				 : #eeeeee;
 $gradient                : linear-gradient(to right, rgba(78, 204, 217, 1) 0%,rgba(89, 223, 218, 1) 100%);
 
 $merri                   : 'Merriweather', serif;
 $roboto                  : 'Roboto', sans-serif;
 $mont                    : 'Montserrat', sans-serif;
+$lato                    : 'Lato', sans-serif;
 $satisfy                 : 'Satisfy', cursive;
 
-$font-family-sans-serif  : $mont;
+$font-family-sans-serif  : $lato;
 $font-family-serif       : $merri;
 
 $font-size-base          : 17px;

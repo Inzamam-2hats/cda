@@ -442,7 +442,7 @@
 		$('.menu-item-has-children > a').on('click', function (e) {
 			var $menu = $(this).siblings('ul');
 
-			if ( $win.innerWidth() < 768 && ! $menu.hasClass('dd-show') ) {
+			if ( $win.innerWidth() < 768 ) {
 				e.preventDefault();
 
 				$menu.toggleClass('dd-show');

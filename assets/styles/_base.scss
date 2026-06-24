@@ -11,7 +11,7 @@ body {
     font-style: normal;
 	font-size: $font-size-base;
 	line-height: $line-height-base;
-	color: $grey;
+	color: $body-color;
 	overflow: auto;
 
 	&.modal-open {
