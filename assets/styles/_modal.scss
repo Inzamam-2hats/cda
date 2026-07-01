@@ -110,6 +110,8 @@
 
 	&.modal--tour,
 	&.modal--info,
+	&.modal--eligibility-requirement,
+	&.modal--need-requirement,
 	&.modal--eligible,
 	&.modal--not-eligible,
 	&.modal--other-eligible {
@@ -132,7 +134,9 @@
 		transition-delay: 0;
 	}
 
-	&.modal--info {
+	&.modal--info,
+	&.modal--eligibility-requirement,
+	&.modal--need-requirement {
 		background: #fff;
 
 		.modal__inner {

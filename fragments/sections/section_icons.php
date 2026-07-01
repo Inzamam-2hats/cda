@@ -5,7 +5,7 @@ $gradient    = get_sub_field( 'gradient' );
 $top_spacing = get_sub_field( 'spacing' );
 ?>
 
-<div class="section <?php echo ( $top_spacing ) ? 'section--large' : ''; ?>">
+<div class="section <?php echo ( $top_spacing ) ? 'section--large' : ''; ?> section--decorated">
 	<?php if ( $gradient ) : ?>
 		<div class="background"></div><!-- /.background -->
 	<?php endif; ?>
@@ -51,5 +51,8 @@ $top_spacing = get_sub_field( 'spacing' );
 				</div><!-- /.container -->
 			</div><!-- /.services -->
 		<?php endif; ?>
+		<div class="section__decoration">
+			<img src="<?php bloginfo('template_directory'); ?>/assets/images/temp/butterfly.png" alt="">
+		</div><!-- /.section__decoration -->
 	</div><!-- /.section__body -->
 </div><!-- /.section -->

@@ -353,6 +353,22 @@
 			$('.modal--info').modal('toggle');
 		});
 
+		$('.js-btn-eligibility-requirement').on('click', function(e){
+			e.preventDefault();
+
+			scrolledTo = $win.scrollTop();
+
+			$('.modal--eligibility-requirement').modal('toggle');
+		});
+
+		$('.js-btn-need-requirement').on('click', function(e){
+			e.preventDefault();
+
+			scrolledTo = $win.scrollTop();
+
+			$('.modal--need-requirement').modal('toggle');
+		});
+
 		$('.btn-close-modal').on('click', function(e){
 			e.preventDefault();
 
@@ -360,6 +376,8 @@
 			$('.modal--form-secondary').modal('hide');
 			$('.modal--tour').modal('hide');
 			$('.modal--info').modal('hide');
+			$('.modal--eligibility-requirement').modal('hide');
+			$('.modal--need-requirement').modal('hide');
 			$('.modal--eligible').modal('hide');
 			$('.modal--not-eligible').modal('hide');
 			$('.modal--other-eligible').modal('hide');
@@ -381,6 +399,16 @@
 			}, 700);
 		});
 		$('.modal--info').on('hidden.bs.modal', function() {
+			$('html, body').animate({
+				scrollTop: scrolledTo
+			}, 700);
+		});
+		$('.modal--eligibility-requirement').on('hidden.bs.modal', function() {
+			$('html, body').animate({
+				scrollTop: scrolledTo
+			}, 700);
+		});
+		$('.modal--need-requirement').on('hidden.bs.modal', function() {
 			$('html, body').animate({
 				scrollTop: scrolledTo
 			}, 700);

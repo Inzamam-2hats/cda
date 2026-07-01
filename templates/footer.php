@@ -160,6 +160,10 @@ $credits     = get_field( 'credits_text',     'option' );
 
 	<?php crb_render_fragment( 'popups/info' ); ?>
 
+	<?php crb_render_fragment( 'popups/eligibility-requirement' ); ?>
+
+	<?php crb_render_fragment( 'popups/need-requirement' ); ?>
+
 	<?php crb_render_fragment( 'popups/eligible' ); ?>
 
 	<?php crb_render_fragment( 'popups/not-eligible' ); ?>

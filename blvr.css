@@ -18,8 +18,12 @@
   margin-top: 26px !important;
 }
 
-.section.section--decorated {
+/* .section.section--decorated {
   overflow: hidden;
+} */
+
+.section {
+  z-index: 1;
 }
 
 .form-contacts .gform_wrapper li.gfield ul.gfield_radio li input[type="radio"] + input[type="text"] {
@@ -360,4 +364,20 @@
 .article-link .article__content.article__content--grey p,
 .service .service__content p {
   color: #2b2b2b;
+}
+
+.services .service__image img {
+  height: auto;
+  object-fit: cover;
+}
+
+.step .step__inner .step__body p, 
+.callout .callout__content.callout__content--grey p,
+.article-small .article__content p {
+  color: #2b2b2b;
+}
+
+.intro {
+  position: relative;
+  z-index: 2;
 }
