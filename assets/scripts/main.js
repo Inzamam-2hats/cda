@@ -521,6 +521,83 @@
 			.toggleClass('accordion__section--opened')
 		});
 
+		function activateFaqCategory($section, program, category) {
+			var $categoryGroup = $section.find('.faq-filter__categories[data-program="' + program + '"]');
+
+			$section.find('.faq-filter__btn--category')
+				.removeClass('is-active');
+
+			$categoryGroup
+				.find('.faq-filter__btn--category[data-category="' + category + '"]')
+				.addClass('is-active');
+
+			$section.find('.faq-filter__panel')
+				.removeClass('is-active')
+				.attr('hidden', true)
+				.filter('[data-program="' + program + '"][data-category="' + category + '"]')
+				.addClass('is-active')
+				.removeAttr('hidden')
+				.find('.accordion__section')
+				.removeClass('accordion__section--opened')
+				.find('.accordion__body')
+				.hide();
+		}
+
+		function activateFaqProgram($section, program) {
+			var $categoryGroup = $section.find('.faq-filter__categories[data-program="' + program + '"]');
+			var $firstCategory = $categoryGroup.find('.faq-filter__btn--category').first();
+			var category = $firstCategory.data('category');
+
+			$section.find('.faq-filter__btn--program')
+				.removeClass('is-active');
+
+			$section.find('.faq-filter__btn--program[data-program="' + program + '"]')
+				.addClass('is-active');
+
+			$section.find('.faq-filter__categories')
+				.removeClass('is-active')
+				.attr('hidden', true);
+
+			if ($categoryGroup.length) {
+				$categoryGroup
+					.addClass('is-active')
+					.removeAttr('hidden');
+			}
+
+			if (!category) {
+				category = $section.find('.faq-filter__panel[data-program="' + program + '"]').first().data('category');
+			}
+
+			activateFaqCategory($section, program, category);
+		}
+
+		$('.section--faq-filter').each(function() {
+			var $section = $(this);
+			var $activeProgram = $section.find('.faq-filter__btn--program.is-active').first();
+
+			if ($activeProgram.length) {
+				activateFaqProgram($section, $activeProgram.data('program'));
+			}
+		});
+
+		$doc.on('click', '.faq-filter__btn--program', function(e) {
+			e.preventDefault();
+
+			var $button = $(this);
+			var $section = $button.closest('.section--faq-filter');
+
+			activateFaqProgram($section, $button.data('program'));
+		});
+
+		$doc.on('click', '.faq-filter__btn--category', function(e) {
+			e.preventDefault();
+
+			var $button = $(this);
+			var $section = $button.closest('.section--faq-filter');
+
+			activateFaqCategory($section, $button.data('program'), $button.data('category'));
+		});
+
 		var $form = $( ".form-payment" );
 		var $input = $form.find( "input" );
 

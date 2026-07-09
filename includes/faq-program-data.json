@@ -1,0 +1,321 @@
+{
+  "ccpp_families": {
+    "label": "CCPP Families",
+    "categories": [
+      {
+        "slug": "how-to-qualify",
+        "label": "How to Qualify",
+        "faqs": [
+          {
+            "title": "1. Am I eligible for the program?",
+            "text": "<p>To be eligible for subsidized child care services, your family must meet at least <strong>one of each</strong> of the following eligibility and need requirements:</p>\n<p></p>\n<h6><strong><span style=\"font-family: Montserrat;\">Eligibility Requirement</span></strong></h6>\n<p></p>\n<ul></p>\n<li>Current CalWORKs aid recipient</li>\n<p></p>\n<li>Child Protective Services (CPS) or at risk of abuse, neglect, or exploitation</li>\n<p></p>\n<li><span style=\"font-size: 16px;\">Participating in a </span>means-tested government program<span style=\"font-size: 16px;\">:</span></li>\n<p>\n</ul>\n<p></p>\n<p>-Child Only Cash Aid</p>\n<p>-Medi-cal</p>\n<p><span style=\"font-size: 16px;\">-CalFresh</span><span style=\"font-size: 16px;\"></p>\n<p></span><span style=\"font-size: 16px;\">-WIC</p>\n<p></span><span style=\"font-size: 16px;\">-Head Start</p>\n<p></span><span style=\"font-size: 16px;\">-Early Head Start</p>\n<p></span><span style=\"font-size: 16px;\">-The Federal Food Distribution Program on Indian Reservations</p>\n<p></span><span style=\"font-size: 16px;\">-California Food Assistance Program</span></p>\n<p></p>\n<ul></p>\n<li>Homeless</li>\n<p></p>\n<li>Income eligible <em>(see Income Eligibility Table on question 2)</em></li>\n<p>\n</ul>\n<p></p>\n<h6><strong><span style=\"font-family: Montserrat;\">Need Requirement</span></strong></h6>\n<p></p>\n<p>Each adult in the family size has one or more of the following need categories:</p>\n<p></p>\n<ul></p>\n<li><span style=\"font-family: Montserrat; font-size: 16px;\">Working</span></li>\n<p></p>\n<li><span style=\"font-family: Montserrat; font-size: 16px;\">Looking for work</span></li>\n<p></p>\n<li><span style=\"font-family: Montserrat; font-size: 16px;\">In school or job training</span></li>\n<p></p>\n<li><span style=\"font-family: Montserrat; font-size: 16px;\">Parental incapacity</span></li>\n<p></p>\n<li><span style=\"font-family: Montserrat; font-size: 16px;\">Child Protective Services (CPS) or at risk of abuse, neglect, or exploitation</span></li>\n<p></p>\n<li><span style=\"font-family: Montserrat; font-size: 16px;\">Experiencing Homelessness</span></li>\n<p></p>\n<li><span style=\"font-family: Montserrat; font-size: 16px;\">Seeking permanent housing</span></li>\n<p>\n</ul>\n<p></p>"
+          },
+          {
+            "title": "2. What is the income eligibility?",
+            "text": "<p>To be eligible based on income, your family’s <strong>gross monthly income</strong> must be equal to or less than the amount shown in the table below. Gross monthly income is all income you and your family receive <strong><em>before</em></strong> taxes are taken out. If you are self-employed it is your income <em><strong>after</strong> </em>deducting business expenses. Income eligibility is based on the State Median Income. Refer to the table below.</p>\n<p></p>\n<p style=\"text-align: center;\"><strong>INCOME ELIGIBILITY TABLE</strong></p>\n<p></p>\n<p style=\"text-align: center;\"></p>\n<table id=\"tablepress-1\" class=\"tablepress tablepress-id-1\"></p>\n<thead></p>\n<tr class=\"row-1\"></p>\n<th class=\"column-1\">Family Size</th>\n<th class=\"column-2\">1-2</th>\n<th class=\"column-3\">3</th>\n<th class=\"column-4\">4</th>\n<th class=\"column-5\">5</th>\n<th class=\"column-6\">6</th>\n<th class=\"column-7\">7</th>\n<th class=\"column-8\">8</th>\n<th class=\"column-9\">9</th>\n<th class=\"column-10\">10</th>\n<th class=\"column-11\">11</th>\n<th class=\"column-12\">12</th>\n<p>\n</tr>\n<p>\n</thead>\n<p></p>\n<tbody class=\"row-striping\"></p>\n<tr class=\"row-2\"></p>\n<td class=\"column-1\">Gross Monthly Income</td>\n<td class=\"column-2\">$7,119</td>\n<td class=\"column-3\">$8,054</td>\n<td class=\"column-4\">$9,636</td>\n<td class=\"column-5\">$11,178</td>\n<td class=\"column-6\">$12,720</td>\n<td class=\"column-7\">$13,009</td>\n<td class=\"column-8\">$13,298</td>\n<td class=\"column-9\">$13,587</td>\n<td class=\"column-10\">$13,876</td>\n<td class=\"column-11\">$14,116</td>\n<td class=\"column-12\">$14,455</td>\n<p>\n</tr>\n<p>\n</tbody>\n<p>\n</table>\n<p>\n<!-- #tablepress-1 from cache --></p>\n<p><span style=\"font-size: 12px;\"><em>Effective July 1st, 2026. Subject to change.</em></span></p>\n<p></p>"
+          },
+          {
+            "title": "3. Do I qualify if I’ve received CalWORKs cash aid?",
+            "text": "<p>Families who <strong><em>are currently receiving CalWORKs cash aid</em> </strong>are eligible for free or reduced cost child care services. Speak to one of our friendly team members for more information on need requirements.</p>\n<p></p>\n<p>Families who <em><strong>have received CalWORKs cash aid within the last 24 months </strong></em>may be eligible for free or reduced cost child care services. Speak to one of our friendly team members for more information on eligibility and need requirements.</p>\n<p></p>"
+          },
+          {
+            "title": "4. What is a recertification?",
+            "text": "<p>Families must complete a recertification at the end of each eligibility period. The recertification is a formal process to collect information and updated documentation to determine if a family meets the program requirements to continue receiving child care services. Eligible families may complete their recertification electronically. For a video walkthrough, <a href=\"https://cdasd.org/families/childcare/resource-center/videos/\">click here</a>.</p>\n<p></p>"
+          }
+        ]
+      },
+      {
+        "slug": "my-child-care-provider",
+        "label": "My Child Care Provider",
+        "faqs": [
+          {
+            "title": "1. Does CDA have a child care provider for me or can I choose my own?",
+            "text": "<p>In CDA&#8217;s Child Care Payment Program, you can choose the type of care and specific child care provider that you feel best meets your family’s needs. You can pick a licensed child care center, a licensed family child care home, a before/after school program, a legally license-exempt provider such as a relative (a grandparent, aunt or uncle) or a friend or neighbor.</p>\n<p></p>"
+          },
+          {
+            "title": "2. Can you send me a list of child care providers?",
+            "text": "<p>CDA can’t recommend any specific child care provider, but we encourage you to use the following resources:</p>\n<p></p>\n<p><strong>CDA Provider Referral Program</strong></p>\n<p></p>\n<p>Upon request, CDA will refer enrolled families to licensed child care providers who have opted in to CDA’s referral program and are actively participating on CDA’s Child Care Payment Program. Providers will be selected randomly and basic contact information will be supplied to the family. The family chooses if they want to make contact with the provider or not. Families will receive up to 4 provider names per request.</p>\n<p></p>\n<p><strong>YMCA Child Care Resource Service</strong></p>\n<p></p>\n<ul style=\"margin-left: 25px; line-height: 1.3;\"></p>\n<li>Complete a referral request online or do an online search of providers:<a href=\"https://www.ymcasd.org/family-resources/child-care-referrals\" target=\"_blank\" rel=\"noopener\"> Search Providers</a></li>\n<p></p>\n<li>Call the YMCA at <a href=\"tel:18004812151\"><strong>1-800-481-2151</strong></a>.</li>\n<p>\n</ul>\n<p></p>\n<p><strong>Community Care Licensing</strong></p>\n<p></p>\n<ul style=\"margin-left: 25px; line-height: 1.3;\"></p>\n<li>Community Care Licensing (CCL) licenses and monitors Family Child Care Homes and Child Care Centers to make sure they provide safe and healthy environments for children in their care. Under Oliver’s Law, parents have a right to review a provider’s facility file on record with CCL. The child care provider must show you the file information if you ask for it.</li>\n<p></p>\n<li>You can also find an overview of a provider’s licensing history, complaints or violations online here.: <a href=\"https://www.ccld.dss.ca.gov/carefacilitysearch/\" target=\"_blank\" rel=\"noopener\">https://secure.dss.ca.gov/CareFacilitySearch/Search/ChildCare</a>.</li>\n<p></p>\n<li>For file details, call <strong><a href=\"tel:6197672200\">(619) 767-2200</a>.</strong></li>\n<p>\n</ul>\n<p></p>"
+          },
+          {
+            "title": "3. Can I change my child care provider?",
+            "text": "<p>Yes, you can change providers at any time while in CDA’s Child Care Payment Program. Contact your Child Care Eligibility Specialist (CES) to request the change.</p>\n<p></p>\n<p><strong>TIP</strong>: Be sure to check if you are required to give an advanced notice to your current provider.</p>\n<p></p>"
+          }
+        ]
+      },
+      {
+        "slug": "rmrc-and-co-payments",
+        "label": "RMRC and Co-Payments",
+        "faqs": [
+          {
+            "title": "1. What is the RMRC or Regional Market Rate Ceiling?",
+            "text": "<p>The Regional Market Rate Ceilings (RMRC) are the highest amounts that CDA can reimburse child care providers. The specific ceiling to use for each child is based on the child’s age, provider type and the amount of certified child care. The State of California comes up with the RMRC by surveying providers within the state and finding an average rate by county. A new RMRC became effective on January 1, 2022, click <a href=\"https://rcscc.adm.dss.ca.gov/index.aspx\"><strong>here</strong> </a>to access.</p>\n<p></p>"
+          },
+          {
+            "title": "2. What is a co-payment?",
+            "text": "<p>CDA’s Child Care Payment Program allows you to pick your child care provider, no matter what their rates are. But if a provider charges more than what CDA can reimburse that provider, you would pay the difference. This is called a “co-payment.”</p>\n<p></p>\n<p>Child care rates can vary for each of your children so it is possible to have a co-payment for one child but not another or to have a co-payment for each child. When deciding on a provider, be sure to check if you would have any co-payments.</p>\n<p></p>"
+          },
+          {
+            "title": "3. How does the RMRC affect a co-payment?",
+            "text": "<p>This infographic helps explain this through a simple example:</p>\n<p></p>\n<p><img fetchpriority=\"high\" decoding=\"async\" class=\"aligncenter\" src=\"https://cdasd.org/wp-content/uploads/2021/12/RMRC_2022.png\" width=\"913\" height=\"1182\" /></p>\n<p></p>"
+          },
+          {
+            "title": "4. Is a co-payment the same as a family fee?",
+            "text": "<p>Co-payments and family fees are both paid by the parent, to the provider, but they are <strong>NOT</strong> the same. A co-payment is the difference between what the provider charges and the highest amount that CDA can reimburse that provider. A family fee is based on family income, family size and the amount of certified child care (full-time or part-time) that is authorized.</p>\n<p></p>"
+          }
+        ]
+      },
+      {
+        "slug": "child-care-certificate-and-attendance-record",
+        "label": "Child Care Certificate and Attendance Record",
+        "faqs": [
+          {
+            "title": "1. What is a Certificate for Child Care Services?",
+            "text": "<p>A Certificate for Child Care Services is an “Addendum to the Parent’s Notice of Action” that informs you and your provider of approved child care services and other information about your child care case.</p>\n<p></p>\n<p><strong>A Certificate for Child Care Services shows the following:</strong></p>\n<p></p>\n<ul style=\"margin-left: 25px; line-height: 1.3;\"></p>\n<li>The certified child care schedule for each child.</li>\n<p></p>\n<li>The maximum reimbursement amount that you are eligible for, per child.</li>\n<p></p>\n<li>Family fees, if applicable.</li>\n<p>\n</ul>\n<p></p>\n<p><strong>A new Certificate for Child Care Services will be issued any time:</strong></p>\n<p></p>\n<ul style=\"margin-left: 25px; line-height: 1.3;\"></p>\n<li>The family selects a new child care provider.</li>\n<p></p>\n<li>The family voluntarily requests a change in child care services or family fees.</li>\n<p></p>\n<li>The maximum reimbursement amount changes due to a change in the RMRC.</li>\n<p></p>\n<li>The family completes recertification.</li>\n<p>\n</ul>\n<p></p>"
+          },
+          {
+            "title": "2. What are my responsibilities for CDA’s Attendance Record?",
+            "text": "<p><strong>(1) Complete the Attendance Record correctly.</strong></p>\n<p></p>\n<ul style=\"margin-left: 25px; line-height: 1.3;\"></p>\n<li>You and your child care provider must sign each child in and out of care as it happens and must show the actual time (not rounded up or down).</li>\n<p></p>\n<li>Your provider will write in the amount of family fees you paid for that month and you must make sure that it is the right amount.</li>\n<p></p>\n<li>You and your child care provider must sign the bottom of the Attendance Record, verifying that all the information is correct.</li>\n<p>\n</ul>\n<p></p>\n<p><strong>(2) Make sure your provider submits the Attendance Record on time, as early as the first business day following the month of care.</strong></p>\n<p></p>"
+          },
+          {
+            "title": "3. What happens if CDA receives my Attendance Record and it was not completed correctly?",
+            "text": "<p>If your Attendance Record is not completed correctly, it may cause a delay or denial of reimbursement to your child care provider. In addition, you and/or your provider will be sent a warning letter. If a fourth Attendance Record Warning Notice is issued within the same fiscal year the parent or provider, as applicable, will need to attend a consultation meeting to review how to complete the Attendance Record accurately.</p>\n<p></p>"
+          },
+          {
+            "title": "4. When are the Attendance Records due to CDA for reimbursement?",
+            "text": "<p>Attendance records may be submitted to CDA as early as the first business day following the month of child care. Reimbursement will be issued to child care providers within 21 calendar days of receipt of complete Attendance Records. To access our Reimbursement Schedule, click <strong><a href=\"https://cdasd.org/wp-content/uploads/2022/08/AP-Reimbursement-Schedule-2022-ENG.pdf\">here</a></strong>.</p>\n<p></p>"
+          }
+        ]
+      },
+      {
+        "slug": "submitting-paperwork",
+        "label": "Submitting Paperwork",
+        "faqs": [
+          {
+            "title": "1. How can I submit paperwork to my Specialist?",
+            "text": "<p>There are many ways you can securely submit paperwork to your Specialist.</p>\n<p></p>\n<p><strong>1. Submit Online:</p>\n<p></strong>Via the MyCareConnect portal. To learn how to use MyCareConnect visit our How-to Videos Page by clicking <strong><a href=\"https://cdasd.org/families/childcare/resource-center/careconnect-videos/\">here</a></strong>.</p>\n<p>Via our website Contact Us page, click <strong><a href=\"https://cdasd.org/contact/\">here</a></strong>.</p>\n<p></p>\n<p><strong>2. Mail it or drop it off at one of our Client Services Centers:</p>\n<p></strong>You can access directions to our Bonita, Kearny Mesa, and National City Client Services Centers <strong><a href=\"https://cdasd.org/contact/directory/\">here</a></strong>. All locations also have a 24/7 drop box available outside of the building.</p>\n<p></p>\n<p><strong>3. Need to speak with your Specialist?</p>\n<p></strong>Call us at (619) 427-4411.</p>\n<p></p>"
+          }
+        ]
+      },
+      {
+        "slug": "encrypted-emails",
+        "label": "Encrypted Emails",
+        "faqs": [
+          {
+            "title": "1. What is an encrypted email?",
+            "text": "<p>CDA uses encrypted email to protect confidential information. Follow the steps below to open an encrypted email:</p>\n<p></p>\n<ol></p>\n<li><strong>Look for the Email</strong>\n<p>You’ll receive an email with the subject line including “Encrypted message” or similar. The email message will include a link to “Read the message.”</li>\n<p></p>\n<li><strong>Click &#8220;Read the Message&#8221;</strong>\n<p>This opens a secure message portal.</li>\n<p></p>\n<li><strong>Choose How to Sign In</strong></li>\n<p>\n</ol>\n<p></p>\n<ol></p>\n<li style=\"list-style-type: none;\">\n<ul></p>\n<li><strong>Microsoft Account</strong>: If you have a Microsoft, Office 365, Outlook.com, Hotmail, or Live.com account, you can sign in directly.</li>\n<p></p>\n<li><strong>One-Time Passcode</strong>: If you don’t have a Microsoft account, click “Sign in with a one-time passcode.” Check your inbox for the code, then enter it to view the message.</li>\n<p>\n</ul>\n<p>\n</li>\n<p>\n</ol>\n<p></p>\n<ol></p>\n<li><strong>Read and Reply Securely</strong>\n<p>Once opened, you can safely read the message and reply directly through the secure portal. Your reply will also be encrypted.</li>\n<p>\n</ol>\n<p></p>\n<p>To send an encrypted email follow the steps below:</p>\n<p></p>\n<ol></p>\n<li><strong>Open a New Email </strong></li>\n<p>\n</ol>\n<p></p>\n<ol></p>\n<li><strong>Enable Encryption</strong>\n<p>Click “Options” → “Encrypt” → Choose “Encrypt-Only” or “Do Not Forward.”</li>\n<p></p>\n<li><strong>Write and Attach Files</strong>\n<p>Compose your message and attach any files as needed.</li>\n<p></p>\n<li><strong>Send</strong>\n<p>Your message will be encrypted and secured before it leaves your inbox.</li>\n<p>\n</ol>\n<p></p>"
+          }
+        ]
+      }
+    ]
+  },
+  "ccpp_providers": {
+    "label": "CCPP Providers",
+    "categories": [
+      {
+        "slug": "program-basics",
+        "label": "Program Basics",
+        "faqs": [
+          {
+            "title": "1. What is the RMRC?",
+            "text": "<p>The Regional Market Rate Ceilings (RMRC) are the highest amounts that CDA can reimburse child care providers. The specific ceiling to use for each child is based on the child’s age, provider type and the amount of certified child care. The State of California determines RMRC by surveying providers within the state and finding an average rate by county. A new RMRC became effective on January 1, 2022, click <a href=\"https://rcscc.adm.dss.ca.gov/index.aspx\"><strong>here</strong> </a>to access.</p>\n<p></p>\n<p>Below a simple example.</p>\n<p></p>\n<p><img fetchpriority=\"high\" decoding=\"async\" class=\"aligncenter\" src=\"https://cdasd.org/wp-content/uploads/2021/12/RMRC_2022.png\" width=\"913\" height=\"1182\" /></p>\n<p></p>"
+          },
+          {
+            "title": "2. What is a family fee?",
+            "text": "<p>It is the parent’s portion of the child care cost. Family fees are determined by the family size, income, and the total amount of child care services approved (full-time/part-time). The full time monthly and part time monthly family fees will be applied based on the monthly hours of the family’s certified need.</p>\n<p></p>\n<ul style=\"list-style-position: inside;\"></p>\n<li>Full-time (“FT”) monthly fee = A certified need of 130 hours or more per the month.</li>\n<p></p>\n<li>Part-time (“PT”) monthly fee = A certified need of less than 130 hours per the month.</li>\n<p>\n</ul>\n<p></p>\n<p>The Family Fee amount due each month will be printed on the attendance record and must be collected directly from the parent. The fees are automatically deducted from your reimbursement.</p>\n<p></p>"
+          },
+          {
+            "title": "3. What is a co-payment?",
+            "text": "<p>A co-payment is the difference between what the provider charges and the highest amount that CDA can reimburse that provider. Co-payments and family fees are not the same and they are paid directly to the provider by the parent.</p>\n<p></p>"
+          },
+          {
+            "title": "4. What is the certificate for child care services?",
+            "text": "<p>The certificate for child care services is a notification which informs you of a family&#8217;s approved child care services and other information about the child care case. A certificate for child care services shows the following:</p>\n<p></p>\n<ol style=\"list-style-position: inside; margin-left: 25px;\"></p>\n<li>The authorized child care schedule for each child</li>\n<p></p>\n<li>The maximum reimbursement amount that you are eligible for, per child</li>\n<p></p>\n<li>Family fees, if applicable</li>\n<p>\n</ol>\n<p></p>"
+          },
+          {
+            "title": "5. What is a statement or EOP?",
+            "text": "<p>Your statement is referred to as Explanation of Payment (EOP) and you can view these for each deposit by logging on to <strong><a href=\"https://careportal.mcttechnology.com/\" target=\"_blank\" rel=\"noopener\">CareConnect Provider</a></strong>.</p>\n<p></p>"
+          }
+        ]
+      },
+      {
+        "slug": "beginning-services",
+        "label": "Beginning Services",
+        "faqs": [
+          {
+            "title": "1. How do I find out the start date of a family starting child care?",
+            "text": "<p>The start date for the family is listed on the Certificate for Child Care Services (Addendum to Parents Notice of Action). If you did not receive the Certificate, please contact your Provider Specialist at <a href=\"tel:6194274411\" target=\"_blank\" rel=\"noopener\"><strong>(619) 427-4411</strong>.</a></p>\n<p></p>"
+          },
+          {
+            "title": "2. What if I did not receive a Certificate for Child Care Services (Addendum to Parents Notice of Action) in CareConnect and the parent wants to begin services right away?",
+            "text": "<p>If you have not received a Certificate for Child Care Services, CDA recommends you do not accept the child for child care until one is received. The parent is responsible for all services used without CDA&#8217;s approval. The provider should be aware care cannot be reimbursed and the parent will be responsible to cover any unauthorized care. CDA does not backdate any change or approval of services.</p>\n<p></p>"
+          },
+          {
+            "title": "3. What is the difference between the approved amount on the child care certificate and the actual reimbursed amount?",
+            "text": "<p>The child care certificate reflects the maximum child care hours authorized and the maximum Regional Market Rate Ceiling (RMRC) allowed. However, your final reimbursement amount is determined by several factors: the actual care used by the child within the authorized hours, your rates on file with CDA, the RMRC, and your invoiced amount on the attendance records. Every month, we compare these factors to determine your final reimbursement amount.</p>\n<p></p>"
+          },
+          {
+            "title": "4. How do I access and complete attendance records?",
+            "text": "<p>CDA Attendance Records will be available online and can be accessed through the <strong><a href=\"https://careconnect.carecloud.io/\">CareConnect Provider</a> </strong>portal. Providers have the option to track digital attendance and submit attendance records digitally.</p>\n<p></p>\n<p>A tutorial on how to log in to CareConnect and how to access attendance records can be found <strong><a href=\"https://cdasd.org/providers/childcare/resource-center/careconnect/videos/\">here</a></strong>.</p>\n<p></p>\n<p><em><strong>Please note</strong></em>:<em> Due to required perjury statements, only CDA generated attendance records can be accepted for reimbursement.</em></p>\n<p></p>"
+          },
+          {
+            "title": "5. How do I receive my statement of reimbursement?",
+            "text": "<p>Reimbursement statements, referred to as an Explanation of Payment (EOP), can be viewed and downloaded from the CareConnect provider portal.</p>\n<p></p>\n<p>If you cannot access CareConnect, please contact your Provider Specialist at <strong><a href=\"tel:6194274411\">(619) 427-4411</a></strong>.</p>\n<p></p>"
+          }
+        ]
+      },
+      {
+        "slug": "invoicing-and-reimbursement",
+        "label": "Invoicing and Reimbursement",
+        "faqs": [
+          {
+            "title": "1. What does it mean to invoice/bill CDA?",
+            "text": "<p>We need to know what you charge for the care you provide and need for you to “invoice or bill” each month. You do this by completing the “Provider Bill/Invoicing” section on each child’s attendance record by filling out what you charge for the care provided. This section allows you to record a monthly invoiced amount (if you charge monthly) or a weekly invoiced amount (if you charge weekly). CDA considers a week Sunday-Saturday.</p>\n<p></p>\n<p>For short how-to videos on Invoicing, <strong><a href=\"https://cdasd.org/providers/ap-program/resource-center/how-to-videos/#invoicing\">click here.</a></strong></p>\n<p></p>"
+          },
+          {
+            "title": "2. What is the difference between weekly and monthly invoicing/billing on the Attendance Record?",
+            "text": "<p class=\"style9\">We know invoicing can be confusing. We recently created a few short videos to help describe the difference between weekly and monthly invoicing. You can find these videos on our website by <a href=\"https://cdasd.org/providers/ap-program/resource-center/how-to-videos/\"><strong>clicking here</strong></a>. Also, we are now offering new providers one-on-one guidance during their first month of invoicing to answer questions and clarify program requirements for reimbursement. You can always contact your provider specialist if you have any questions about invoicing/billing at <strong>(619) 427-4411</strong>.</p>\n<p></p>"
+          },
+          {
+            "title": "3. How will a set child care schedule be reimbursed?",
+            "text": "<p>Set child care schedules will be reimbursed according to the amount billed by the provider, the provider’s rate sheet on file with CDA or the Regional Market Rate Ceiling (RMRC) amount listed on the certificate for child care services, whichever is less.</p>\n<p></p>\n<p><strong>Exception:</strong> When a set schedule is authorized with a license-exempt provider for less than 25 hours per week, reimbursement will be based on the part-time hourly RMRC for the actual care provided within each child’s authorized days and hours.</p>\n<p></p>\n<p>For short videos on reimbursement and the RMRC, <strong><a href=\"https://cdasd.org/providers/ap-program/resource-center/how-to-videos/#invoicing\">click here.</a></strong></p>\n<p></p>"
+          },
+          {
+            "title": "4. How will a variable child care schedule be reimbursed?",
+            "text": "<p>Variable child care schedules are reimbursed for the actual care hours provided that are within the hours authorized. The reimbursement will be the lesser between the amount billed by the provider, the provider&#8217;s rate sheet on file with CDA, or the full-time (FT) or part-time (PT) Regional Market Rate Ceiling (RMRC) listed on the certificate for child care services.</p>\n<p></p>\n<p><em>For example,</em> a parent is authorized a variable schedule with a licensed provider for up to 35 hours per week, which is considered full time. The parent uses 25 hours, within the authorized days and times, which is considered part-time. The provider’s reimbursement will be based on the part-time weekly RMRC.</p>\n<p></p>\n<p><em>Please note:</em> CDA will not reimburse for absences, vacations, holidays, or provider closure days for children with variable schedules, which means the parent may be responsible for a co-payment to the provider for days that the child is absent from child care.</p>\n<p></p>\n<p>For short videos on reimbursement and the RMRC, <strong><a href=\"https://cdasd.org/providers/ap-program/resource-center/how-to-videos/#invoicing\">click here.</a></strong></p>\n<p></p>"
+          },
+          {
+            "title": "5. My rates have changed, what do I do?",
+            "text": "<p>Please submit your updated rate sheet to CDA’s Provider Services. Licensed providers are required to submit their current rate sheet to CDA and the local Resource and Referral (YMCA-CRS). This rate sheet should be the same rate sheet provided to all families, subsidized or not and signed by the provider. The rate sheet is how CDA knows what providers charge for services and use it in conjunction with the Regional Market Rate Ceilings (RMRC) and the child’s schedule type (variable or set) to determine reimbursement.</p>\n<p></p>\n<p>Rate changes received in advance will be made effective the day of the change.</p>\n<p></p>\n<p>All other rate changes will be made effective on the first of the month in which they were received.</p>\n<p></p>"
+          },
+          {
+            "title": "6. There is a discrepancy in the amount I received. Why would that happen?",
+            "text": "<p>Discrepancies in the amount paid could happen for various reasons: Errors made on the attendance record, missing times, possible discrepancies in the family’s information in our system, possible misinterpretation of Provider’s Rate Sheet, the amount the provider has billed/requested exceeds the RMRC, Child/children are on varied schedules and all the care hours were not reimbursable.</p>\n<p></p>\n<p>If you further questions on a payment that you have already received, please contact <strong><a href=\"mailto:pquestion@cdasd.org\">pquestion@cdasd.org</a></strong>.</p>\n<p></p>"
+          },
+          {
+            "title": "7. Why does CDA pay me a different amount than the one on my rate sheet or invoiced/billed amount?",
+            "text": "<p>CDA is a state funded program and we must follow state reimbursement limitations. Therefore, CDA is required to compare the invoiced amount on the attendance record to your rate sheet on file with CDA and the Regional Market Rate Ceilings (RMRC). CDA will reimburse whichever is less. If you ever have questions about your reimbursement amount, please contact your Provider Specialist at <strong>(619) 427-4411</strong> who will be happy to assist you</p>\n<p></p>\n<p>For short videos on reimbursement and the RMRC, <strong><a href=\"https://cdasd.org/providers/ap-program/resource-center/how-to-videos/#invoicing\">click here.</a></strong></p>\n<p></p>"
+          },
+          {
+            "title": "8. I only received reimbursement for 2 out of 3 children, should I be concerned?",
+            "text": "<p>You should wait until the actual “Check Issue Date” of the pay period. At times the reimbursement for the family will come in more than one deposit, and should all be deposited by the end of the day on the “Check Issue Date”.</p>\n<p></p>"
+          },
+          {
+            "title": "9. When do I have to submit the Attendance Records for reimbursement?",
+            "text": "<p>Attendance Records may be submitted to CDA as early as the first business day following the month of child care. Reimbursement will be issued to child care providers within 21 calendar days of receipt of complete Attendance Records. To access our Reimbursement Schedule, click <strong><a href=\"https://cdasd.org/wp-content/uploads/2025/09/Provider-Reimbursement-Schedule-Eng-6.27.25.pdf\">here</a></strong>.</p>\n<p></p>\n<p>Attendance records may be submitted digitally, mailed directly to CDA’s office in Bonita, or dropped off at our Bonita, Kearny Mesa, or National City offices.</p>\n<p></p>\n<p>For the convenience of providers and parents, a CDA Drop-Box is located at each building. The last pick up from the drop-box is 4:30 PM each business day. Attendance records deposited after 4:30 PM will be date-stamped and received the following business day.</p>\n<p></p>"
+          },
+          {
+            "title": "10. Why did I receive my reimbursement late?",
+            "text": "<p>A discrepancy was found with the Attendance Record information or the child care used. To avoid a reimbursement delay, make sure your Attendance Records are always accurately completed and the invoiced amount matches your rate sheet on file with CDA. In addition, CDA is currently working on identifying new ways to speed up the reimbursement process.</p>\n<p></p>"
+          },
+          {
+            "title": "11. What if the parent does not pay his/her family fees?",
+            "text": "<p>If a parent fails to pay their family fee the provider should notify CDA. When the provider notifies CDA that the parent is not making timely or correct payments on an existing repayment plan, a Notice of Action will be issued to disenrollment of child care services. Please note: Providers cannot waive payment of family fees at any time for any reason. If a family fee payment is waived, both the parent’s and provider’s participation in the Alternative Payment Program may be terminated.</p>\n<p></p>"
+          },
+          {
+            "title": "12. What are non-operational days and how do I update them?",
+            "text": "<p>Non-operational days are days you are closed but still request payment for (i.e. holidays). California regulations [Title 5, Section 18076.2(b)(2)] sets the limit Alternative Payment programs can reimburse child providers for days a provider is closed (non-operational days), to no more than 10 days a fiscal year. The provider is only eligible for reimbursement for Non-Operational Days <em>if  </em>they require those days to be paid for by non-subsidized families and have supplied CDA with documentation of that requirement.</p>\n<p></p>\n<p><em>Please note,</em> if you have any changes in your Non-Operational Days once you have submitted your contractual terms to CDA, you must update your information with us <em>PRIOR</em> to the date of the non-operational day you are requesting reimbursement for. CDA will not adjust reimbursement retroactively for Non-Operational Days retroactively.</p>\n<p></p>"
+          }
+        ]
+      },
+      {
+        "slug": "general",
+        "label": "General",
+        "faqs": [
+          {
+            "title": "1. I am providing child care for a family that is receiving subsidized child care through CDA. Am I considered an employee of CDA?",
+            "text": "<p>No. The Child Care Payment Program is a parental choice program that allows a family to select a provider that best meets their need. Providers participating are considered independent contractors and are not employees of CDA. Therefore, you are not entitled to Unemployment, Disability, Workers Compensation, Social Security, health insurance or pension benefits from CDA.</p>\n<p></p>"
+          },
+          {
+            "title": "2. How can I submit paperwork to my Specialist?",
+            "text": "<p>There are many ways you can securely submit paperwork to your Specialist.</p>\n<p></p>\n<p><strong>1. Submit Online:</p>\n<p></strong>Via the CareConnect Provider portal. To learn how to use CareConnect Provider visit our How-to Videos Page by clicking <strong><a href=\"https://cdasd.org/providers/childcare/resource-center/careconnect/videos/\">here</a></strong>.</p>\n<p>Via our website Contact Us page, click <strong><a href=\"https://cdasd.org/contact/\">here</a></strong>.</p>\n<p></p>\n<p><strong>2. Mail it or drop it off at one of our Client Services Centers:</p>\n<p></strong>You can access directions to our Bonita, Kearny Mesa, and National City Client Services Centers <strong><a href=\"https://cdasd.org/contact/directory/\">here</a></strong>. All locations also have a 24/7 drop box available outside of the building.</p>\n<p></p>\n<p><strong>3. Need to speak with your Specialist?</p>\n<p></strong>Call us at (619) 427-4411.</p>\n<p></p>"
+          }
+        ]
+      },
+      {
+        "slug": "encrypted-emails",
+        "label": "Encrypted Emails",
+        "faqs": [
+          {
+            "title": "1. What is an encrypted email?",
+            "text": "<p>CDA uses encrypted email to protect confidential information. Follow the steps below to open an encrypted email:</p>\n<p></p>\n<ol></p>\n<li><strong>Look for the Email</strong>\n<p>You’ll receive an email with the subject line including “Encrypted message” or similar. The email message will include a link to “Read the message.”</li>\n<p></p>\n<li><strong>Click &#8220;Read the Message&#8221;</strong>\n<p>This opens a secure message portal.</li>\n<p></p>\n<li><strong>Choose How to Sign In</strong></li>\n<p>\n</ol>\n<p></p>\n<ol></p>\n<li style=\"list-style-type: none;\">\n<ul></p>\n<li><strong>Microsoft Account</strong>: If you have a Microsoft, Office 365, Outlook.com, Hotmail, or Live.com account, you can sign in directly.</li>\n<p></p>\n<li><strong>One-Time Passcode</strong>: If you don’t have a Microsoft account, click “Sign in with a one-time passcode.” Check your inbox for the code, then enter it to view the message.</li>\n<p>\n</ul>\n<p>\n</li>\n<p>\n</ol>\n<p></p>\n<ol></p>\n<li><strong>Read and Reply Securely</strong>\n<p>Once opened, you can safely read the message and reply directly through the secure portal. Your reply will also be encrypted.</li>\n<p>\n</ol>\n<p></p>\n<p>To send an encrypted email follow the steps below:</p>\n<p></p>\n<ol></p>\n<li><strong>Open a New Email </strong></li>\n<p>\n</ol>\n<p></p>\n<ol></p>\n<li><strong>Enable Encryption</strong>\n<p>Click “Options” → “Encrypt” → Choose “Encrypt-Only” or “Do Not Forward.”</li>\n<p></p>\n<li><strong>Write and Attach Files</strong>\n<p>Compose your message and attach any files as needed.</li>\n<p></p>\n<li><strong>Send</strong>\n<p>Your message will be encrypted and secured before it leaves your inbox.</li>\n<p>\n</ol>\n<p></p>"
+          }
+        ]
+      }
+    ]
+  },
+  "nutr_providers": {
+    "label": "Nutrition Program",
+    "categories": [
+      {
+        "slug": "general",
+        "label": "General",
+        "faqs": [
+          {
+            "title": "1. How do I sign up?",
+            "text": "<p>To join CDA’s Nutrition Program, providers can call the CDA Nutrition Office or complete the web form <strong><a href=\"https://cdasd.org/providers/nutrition-program/\">online</a>.</strong> Our friendly office staff will check to see if we are currently completing sign-ups in your area and schedule a training appointment at a time that is convenient for you. In addition to regular business hours, early evening and Saturday morning appointments are also available for your convenience.</p>\n<p></p>"
+          },
+          {
+            "title": "2. What are the Requirements for Participation?",
+            "text": "<p>In order to participate in the CACFP, providers must be either licensed or registered with <strong><a href=\"https://www.cdss.ca.gov/inforesources/community-care/caregiver-background-check/trustline\">Trustline</a>.</strong> Providers must also agree to follow the Federal and State regulations and requirements for the CACFP. <em>Not a licensed provider? </em><strong><a href=\"https://www.cdss.ca.gov/inforesources/child-care-licensing\"><em>Click here to learn more.</em></a></strong></p>\n<p></p>"
+          },
+          {
+            "title": "3. Do I need to live in a certain area to participate in the program?",
+            "text": "<p>CDA serves providers in 6 counties across Southern California. If you live in San Diego County, Imperial County, Orange County, Riverside County, Southern Bernardino County or certain areas of Los Angeles County, we may be able to serve you. Please contact our office, to see if we are currently scheduling new sign-ups in your area.</p>\n<p></p>"
+          },
+          {
+            "title": "4. Do I need to be income eligible in order to participate in the program?",
+            "text": "<p>No, all licensed and Trustline providers are eligible to participate regardless of income and location. Providers are reimbursed for meals based on their qualified tiering rate. The reimbursement structure allows higher reimbursement to providers located in low-income areas, and also to providers and children from low-income households.</p>\n<p></p>"
+          },
+          {
+            "title": "5. What paperwork will be required?",
+            "text": "<p>Providers signing up for the CDA Nutrition Program must submit a copy of their license, and complete the new sign-up paperwork as well as the program application. Enrollment forms must also be completed and submitted within 5 days for all new or currently enrolled children.</p>\n<p></p>"
+          },
+          {
+            "title": "6. Are the Nutrition Program forms available on CDA’s website?",
+            "text": "<p>Yes, please head to our <strong><a href=\"https://cdasd.org/providers/nutrition-program/resource-center/forms/\">Resource Center</a> </strong>to view available forms. If the form you are looking for is not in the Resource Center, please call the CDA Nutrition Office and we will be happy to assist you.</p>\n<p></p>"
+          },
+          {
+            "title": "7. What is a Field Services Representative?",
+            "text": "<p>Your Field Services Representative, also known as your monitor, is your personal CDA Nutrition Program guide. They are available to help you answer any questions you may have and provide personalized training and support throughout the year. Your Field Services Representative will complete visits with you at least 3 times per year to see how you are doing on our program and offer any assistance you may need.</p>\n<p></p>"
+          },
+          {
+            "title": "8. How is this program better than having the parents bring food for their children?",
+            "text": "<p>The cost of food is higher than ever, and participating in the CACFP can help reduce the cost of operating your childcare or reduce the cost to the parent, while providing the children with healthy meals and snacks. Additionally, when children are served CACFP meals they have the opportunity to experience foods that they may not be exposed to at home, and children learn from watching their peers eat different foods.</p>\n<p></p>"
+          },
+          {
+            "title": "9. Am I reimbursed for infants?",
+            "text": "<p>Yes, providers are reimbursed for feeding an infant whether the infant is on formula or breast milk. For more information on Claiming Infants please refer to section 4 of our<strong> <a href=\"https://cdasd.org/providers/nutrition-program/resource-center/provider-notebook/\">Provider Handbook</a>.</strong></p>\n<p></p>"
+          },
+          {
+            "title": "10. Will I be reimbursed for drop-in and part-time?",
+            "text": "<p>Yes. Once you enroll drop-in and part time children, claim them when present and you will be reimbursed.</p>\n<p></p>"
+          },
+          {
+            "title": "11. What is TrustLine?",
+            "text": "<p><strong><a href=\"https://www.cdss.ca.gov/inforesources/community-care/caregiver-background-check/trustline\">TrustLine</a> </strong>is California’s registry of in-home child care providers, who have passed a background screening and are licensed for child care. It was created by the California Legislature in 1987 and is a powerful resource for parents hiring a caregiver. All caregivers listed with TrustLine have been cleared through a fingerprint check of records at the California Department of Justice.</p>\n<p></p>"
+          },
+          {
+            "title": "12. What are the two tiers of reimbursement rates?",
+            "text": "<p>Reimbursement rates are based on the school boundary in which the provider lives. If the school is in an area where fewer than 50% of the students are eligible to receive free/reduced price meals, then the provider is reimbursed at a lower “Tier II” rate. If the percentage of the students eligible to receive free/reduced price meals is greater than 50%, then the provider will receive a higher “Tier I” reimbursement rate for the meals they serve in their home. The provider may also qualify for the Tier I rate by submitting an income application and if their personal income is below a level set by the State. Individual children who meet the income eligibility requirements may also qualify for Tier I reimbursement rates.</p>\n<p></p>"
+          },
+          {
+            "title": "13. How will I be reimbursed for each meal?",
+            "text": "<p>Providers are reimbursed at rates set by the USDA for up to three meals (two major meals and one snack or two snacks and one major meal) per day per child for meals meeting the USDA standards for nutrition. Providers keep track of the children and meals that they serve throughout the month using a free computer program provided by CDA. At the end of each month, providers send their data to CDA at the push of a button.</p>\n<p></p>"
+          },
+          {
+            "title": "14. Can parents sign up for the program?",
+            "text": "<p>No, only a licensed or TrustLine child care provider can sign up for the program.</p>\n<p></p>"
+          },
+          {
+            "title": "15. Can I be reimbursed for meals I serve to my own children?",
+            "text": "<p>Providers may only be reimbursed for meals served to their own children if they income qualify and when at least one non-resident day care child is present and claimed at the same meal.</p>\n<p></p>"
+          },
+          {
+            "title": "16. What if I have a child in the program with food allergies who cannot eat the same foods as some of the other children?",
+            "text": "<p>If a child with food allergies is in care, call the CDA Nutrition Office for guidance. We will provide you with the required forms if necessary. <em>For more information on CDA Medical Statements please refer to section 3 in the CDA </em><strong><a href=\"https://cdasd.org/providers/nutrition-program/resource-center/provider-notebook/\"><em>Provider Handbook</em></a>.</strong></p>\n<p></p>"
+          }
+        ]
+      }
+    ]
+  }
+}

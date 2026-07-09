@@ -21,39 +21,7 @@ $credits     = get_field( 'credits_text',     'option' );
 							</div><!-- /.contacts -->
 
 							<div class="socials hidden-xs">
-								<ul>
-									<?php if ( ! empty( $facebook ) ) : ?>
-										<li>
-											<a href="<?php echo esc_url( $facebook ); ?>" class="ico-facebook" target="_blank">
-												<img src="<?php bloginfo('template_directory'); ?>/assets/images/temp/facebook.png" alt="">
-											</a>
-										</li>
-									<?php endif; ?>
-
-									<?php if ( ! empty( $instagram ) ) : ?>
-										<li>
-											<a href="<?php echo esc_url( $instagram ); ?>" class="ico-instagram" target="_blank">
-												<img src="<?php bloginfo('template_directory'); ?>/assets/images/temp/instagram.png" alt="">
-											</a>
-										</li>
-									<?php endif; ?>
-
-									<?php if ( ! empty( $twitter ) ) : ?>
-										<li>
-											<a href="<?php echo esc_url( $twitter ); ?>" class="ico-twitter" target="_blank">
-												<img src="<?php bloginfo('template_directory'); ?>/assets/images/temp/twitter.png" alt="">
-											</a>
-										</li>
-									<?php endif; ?>
-
-									<?php if ( ! empty( $linkedin ) ) : ?>
-										<li>
-											<a href="<?php echo esc_url( $linkedin ); ?>" class="ico-instagram" target="_blank">
-												<img src="<?php bloginfo('template_directory'); ?>/assets/images/temp/linkedin.png" alt="">
-											</a>
-										</li>
-									<?php endif; ?>
-								</ul>
+								<?php crb_render_fragment( 'footer/social-icons', compact( 'facebook', 'instagram', 'twitter', 'linkedin' ) ); ?>
 							</div><!-- /.socials -->
 						</div><!-- /.col-xs-12 col-sm-12 col-md-4 col-lg-3 -->
 					<?php endif; ?>
@@ -97,39 +65,7 @@ $credits     = get_field( 'credits_text',     'option' );
 					<?php if ( ! empty( ! $disabled ) ) : ?>
 						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
 							<div class="socials hidden-lg">
-								<ul>
-									<?php if ( ! empty( $facebook ) ) : ?>
-										<li>
-											<a href="<?php echo esc_url( $facebook ); ?>" class="ico-facebook" target="_blank">
-												<img src="<?php bloginfo('template_directory'); ?>/assets/images/temp/facebook.png" alt="">
-											</a>
-										</li>
-									<?php endif; ?>
-
-									<?php if ( ! empty( $instagram ) ) : ?>
-										<li>
-											<a href="<?php echo esc_url( $instagram ); ?>" class="ico-instagram" target="_blank">
-												<img src="<?php bloginfo('template_directory'); ?>/assets/images/temp/instagram.png" alt="">
-											</a>
-										</li>
-									<?php endif; ?>
-
-									<?php if ( ! empty( $twitter ) ) : ?>
-										<li>
-											<a href="<?php echo esc_url( $twitter ); ?>" class="ico-twitter" target="_blank">
-												<img src="<?php bloginfo('template_directory'); ?>/assets/images/temp/twitter.png" alt="">
-											</a>
-										</li>
-									<?php endif; ?>
-
-									<?php if ( ! empty( $linkedin ) ) : ?>
-										<li>
-											<a href="<?php echo esc_url( $linkedin ); ?>" class="ico-instagram" target="_blank">
-												<img src="<?php bloginfo('template_directory'); ?>/assets/images/temp/linkedin.png" alt="">
-											</a>
-										</li>
-									<?php endif; ?>
-								</ul>
+								<?php crb_render_fragment( 'footer/social-icons', compact( 'facebook', 'instagram', 'twitter', 'linkedin' ) ); ?>
 							</div><!-- /.socials -->
 						</div><!-- /.col-xs-12 col-sm-12 col-md-4 col-lg-3 -->
 					<?php endif; ?>

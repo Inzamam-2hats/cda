@@ -23,6 +23,7 @@
 			}
 
 			.ico-facebook {
+				svg,
  				img {
 					width: 9px; 
 					height: 18px;
@@ -30,6 +31,7 @@
 			}
 
 			.ico-instagram {
+				svg,
 				img {
 					width: 18px; 
 					height: 17px; 
@@ -37,13 +39,25 @@
 			}
 
 			.ico-twitter {
+				svg,
 				img {
 					width: 19px; 
 					height: 16px; 
 				}
 			}
 
+			.ico-linkedin {
+				svg,
+				img {
+					width: 18px;
+					height: 18px;
+				}
+			}
+
 			a {
+				display: inline-flex;
+				color: $blue;
+
 				&:hover {
 					opacity: .7; 
 				}

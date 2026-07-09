@@ -49,6 +49,9 @@ include_once( THEME_DIR . 'options/shortcodes.php' );
 # Add Gravity Forms Functions
 include_once( THEME_DIR . 'includes/gravity-forms.php' );
 
+# Program-specific FAQ data
+include_once( THEME_DIR . 'includes/faq-program-data.php' );
+
 # Add Title functions
 include_once( THEME_DIR . 'includes/title.php' );
 

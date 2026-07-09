@@ -1,0 +1,141 @@
+/* ------------------------------------------------------------ *\
+	FAQ Filter
+\* ------------------------------------------------------------ */
+
+.section--faq-filter {
+	.faq-filter {
+		padding-bottom: 24px;
+	}
+
+	.faq-filter__list {
+		margin-bottom: 0;
+	}
+
+	.faq-filter__categories {
+		margin-top: 28px;
+		padding-top: 24px;
+		border-top: 1px solid #e8e8e8;
+		width: 100%;
+		max-width: 100%;
+		overflow: hidden;
+
+		&.is-active {
+			display: block;
+		}
+	}
+
+	.faq-filter__grid {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.faq-filter__grid--categories {
+		display: grid;
+		grid-auto-flow: column;
+		grid-auto-columns: max-content;
+		justify-content: start;
+		gap: 12px;
+		width: 100%;
+		max-width: 100%;
+		overflow-x: auto;
+		overflow-y: hidden;
+		padding-bottom: 8px;
+		-webkit-overflow-scrolling: touch;
+		scrollbar-width: thin;
+		scrollbar-color: rgba($blue, 0.35) transparent;
+
+		&::-webkit-scrollbar {
+			height: 6px;
+		}
+
+		&::-webkit-scrollbar-thumb {
+			border-radius: 999px;
+			background: rgba($blue, 0.35);
+		}
+
+		&::-webkit-scrollbar-track {
+			background: transparent;
+		}
+	}
+
+	.faq-filter__grid-item {
+		width: max-content;
+		max-width: none;
+	}
+
+	.faq-filter__btn--category {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: auto;
+		max-width: 200px;
+		min-height: 48px;
+		padding: 8px 12px;
+		border: 1px solid #ddd;
+		border-radius: 999px;
+		background: #fff;
+		box-shadow: 0 2px 0 rgba(120, 168, 104, 0.12);
+		font-family: $mont;
+		font-size: 12px;
+		font-weight: 600;
+		line-height: 1.35;
+		letter-spacing: -0.01em;
+		color: #2b2b2b;
+		text-align: center;
+		transition: background 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease, color 0.25s ease, transform 0.25s ease;
+
+		&:hover {
+			border-color: $blue;
+			background: #fff;
+			box-shadow: 0 8px 18px rgba(170, 170, 170, 0.18);
+			color: $blue;
+		}
+
+		&.is-active {
+			border-color: $blue;
+			background: $blue;
+			box-shadow: 0 10px 20px rgba(170, 170, 170, 0.28);
+			color: #fff;
+		}
+	}
+
+	.faq-filter__btn--program {
+		&.is-active {
+			background: $blue !important;
+			box-shadow: 0px 10px 20px 0px rgba(170, 170, 170, 0.3);
+			color: #fff;
+		}
+	}
+
+	@include mobile {
+		.faq-filter__categories {
+			margin-top: 20px;
+			padding-top: 18px;
+		}
+
+		.faq-filter__grid--categories {
+			gap: 10px;
+		}
+
+		.faq-filter__btn--category {
+			min-height: 48px;
+			padding: 10px 16px;
+			font-size: 13px;
+		}
+	}
+
+	.accordion__inner.faq-filter__panel {
+		display: none;
+		margin: 0 30px 32px;
+		border-bottom: 1px solid #ddd;
+
+		@include tablet {
+			margin: 0 0 30px;
+		}
+
+		&.is-active {
+			display: block;
+		}
+	}
+}
