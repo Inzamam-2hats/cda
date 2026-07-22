@@ -114,7 +114,8 @@
 	&.modal--need-requirement,
 	&.modal--eligible,
 	&.modal--not-eligible,
-	&.modal--other-eligible {
+	&.modal--other-eligible,
+	&.modal--nutrition-program {
 		opacity: 0;
 		visibility: hidden;
 		transition: opacity .3s, visibility .3s, transform .3s;
@@ -126,6 +127,17 @@
 			visibility: visible;
 			transform: translateY(0);
 			padding: 0 !important;
+		}
+	}
+
+	&.modal--nutrition-program {
+		.nutrition-program-form {
+			iframe {
+				height: 1300px !important;
+				@include mobile {
+					height: 1520px !important;
+				}
+			}
 		}
 	}
 
@@ -144,7 +156,7 @@
 			padding: 146px 55px 150px 0;
 			line-height: 1.6;
 			font-size: 15px;
-			font-family: $roboto;
+			font-family: $lato;
 			font-weight: normal;
 
 			/* Tablet */
@@ -182,7 +194,7 @@
 			.btn {
 				color: #fff;
 				border-color: #21c8e6;
-				font-family: $roboto;
+				font-family: $lato;
 				font-weight: bold;
 				font-size: 14px;
 				background: #21c8e6;

@@ -76,7 +76,7 @@
 		border-radius: 999px;
 		background: #fff;
 		box-shadow: 0 2px 0 rgba(120, 168, 104, 0.12);
-		font-family: $mont;
+		font-family: $lato;
 		font-size: 12px;
 		font-weight: 600;
 		line-height: 1.35;
@@ -112,13 +112,32 @@
 		.faq-filter__categories {
 			margin-top: 20px;
 			padding-top: 18px;
+			overflow: visible;
 		}
 
 		.faq-filter__grid--categories {
-			gap: 10px;
+			grid-auto-flow: row;
+			grid-auto-columns: unset;
+			grid-template-columns: 1fr;
+			justify-content: stretch;
+			gap: 8px;
+			overflow: visible;
+			padding-bottom: 0;
+			scrollbar-width: none;
+
+			&::-webkit-scrollbar {
+				display: none;
+			}
+		}
+
+		.faq-filter__grid-item {
+			width: 100%;
+			max-width: 100%;
 		}
 
 		.faq-filter__btn--category {
+			width: 100%;
+			max-width: 100%;
 			min-height: 48px;
 			padding: 10px 16px;
 			font-size: 13px;

@@ -158,7 +158,6 @@
 
 			@include mobile {
 				margin-bottom: 30px;
-				color: $blue;
 			}
 		}
 
@@ -263,7 +262,7 @@
 			/* Mobile */
 
 			@include mobile {
-				padding: 0 10px 20px 30px;
+				padding: 0 20px 20px 20px;
 			}
 		}
 	}

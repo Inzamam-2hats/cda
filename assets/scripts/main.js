@@ -369,6 +369,14 @@
 			$('.modal--need-requirement').modal('toggle');
 		});
 
+		$('.js-btn-nutrition-program').on('click', function(e){
+			e.preventDefault();
+
+			scrolledTo = $win.scrollTop();
+
+			$('.modal--nutrition-program').modal('toggle');
+		});
+
 		$('.btn-close-modal').on('click', function(e){
 			e.preventDefault();
 
@@ -381,6 +389,7 @@
 			$('.modal--eligible').modal('hide');
 			$('.modal--not-eligible').modal('hide');
 			$('.modal--other-eligible').modal('hide');
+			$('.modal--nutrition-program').modal('hide');
 		});
 
 		$('.modal--form-secondary').on('hidden.bs.modal', function() {
@@ -409,6 +418,11 @@
 			}, 700);
 		});
 		$('.modal--need-requirement').on('hidden.bs.modal', function() {
+			$('html, body').animate({
+				scrollTop: scrolledTo
+			}, 700);
+		});
+		$('.modal--nutrition-program').on('hidden.bs.modal', function() {
 			$('html, body').animate({
 				scrollTop: scrolledTo
 			}, 700);

@@ -31,8 +31,17 @@ if ( empty( $links ) ) {
 			<div class="container container--xs">
 				<ul class="list-resourses d-flex">
 					<?php foreach ( $links as $link ) : ?>
+						<?php
+						$url                = $link['resource']['url'] ?? '';
+						$is_nutrition_popup = ( $url === '#nutrition-program' );
+						?>
 						<li>
-							<a href="<?php echo esc_url( $link['resource']['url'] ); ?>" target="<?php echo esc_attr( $link['resource']['target'] ); ?>" <?php echo $style; ?>>
+							<a
+								href="<?php echo $is_nutrition_popup ? '#' : esc_url( $url ); ?>"
+								target="<?php echo esc_attr( $link['resource']['target'] ); ?>"
+								class="<?php echo $is_nutrition_popup ? 'js-btn-nutrition-program' : ''; ?>"
+								<?php echo $style; ?>
+							>
 								<?php echo esc_html( $link['resource']['title'] ) ? : 'Learn More'; ?>
 							</a>
 						</li>

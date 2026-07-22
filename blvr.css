@@ -583,3 +583,15 @@
     margin-bottom: 0;
   }
 }
+
+@media screen and (max-width: 600px) {
+  #wpadminbar {
+    position: fixed;
+  }
+}
+
+@media (max-width: 992px) {
+  .btn.btn--blue {
+    padding: 0 25px;
+  }
+}

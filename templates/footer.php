@@ -105,6 +105,8 @@ $credits     = get_field( 'credits_text',     'option' );
 	<?php crb_render_fragment( 'popups/not-eligible' ); ?>
 
 	<?php crb_render_fragment( 'popups/other-eligible' ); ?>
+
+	<?php crb_render_fragment( 'popups/nutrition-program' ); ?>
 </div><!-- /.wrapper -->
 
 <script>

@@ -110,7 +110,7 @@
 		.dd-show {
 			opacity: 1;
 			visibility: visible;
-			max-height: 324px;
+			max-height: fit-content;
 			height: auto;
 		}
 
@@ -152,6 +152,7 @@
 				&.dd-show {
 					padding: 7px 0; 
 
+
 					> ul {
 						padding: 0 0 10px; 
 					}
@@ -184,6 +185,7 @@
 				
 				@include mobile {
 					background-color: transparent; 
+					padding-left: 15px !important;
 				}
 
 				a {
@@ -233,7 +235,7 @@
 				left: -40px; 
 				width: 170px;
 				padding: 12px 0;  
-				font-size: 13px;
+				font-size: 15px;
 			}
 
 			/* Mobile */
