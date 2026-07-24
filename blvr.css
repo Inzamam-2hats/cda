@@ -430,7 +430,16 @@
 .map .background,
 .article-link .background {
   width: 100%;
-  max-width: 800px; /* default .section__head */
+  max-width: 900px; /* default .section__head */
+}
+
+.section .background {
+  padding: 60px 0 30px;
+  border-radius: 15px;
+}
+
+.video-iframe .background {
+  border-radius: 0;
 }
 
 /* Section head sizes */
@@ -593,5 +602,21 @@
 @media (max-width: 992px) {
   .btn.btn--blue {
     padding: 0 25px;
+  }
+}
+
+.video-iframe h5 {
+  max-width: 65%;
+  margin: 0 auto;
+}
+@media (max-width: 992px) {
+  .video-iframe h5 {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .video-iframe .section__head {
+    max-width: 100% !important;
   }
 }

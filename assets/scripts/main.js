@@ -178,11 +178,20 @@
 		});
 
 		$('.js-btn-scroll').on( 'click', function(e) {
-			var href    = $(this).attr('href');
-			var $header = $('.header .header__content').height();
+			var $button = $(this);
+			var href    = $button.attr('href');
+			var $target = $(href);
+			var $header = $('.header .header__content').height() || 0;
+
+			if ( ! $target.length ) {
+				return false;
+			}
+
+			$button.closest('.text-filter').find('.text-filter__btn').removeClass('is-active');
+			$button.addClass('is-active');
 
 			$('html, body').animate({
-				scrollTop: $(href).offset().top - $header
+				scrollTop: $target.offset().top - $header - 20
 			}, 900);
 
 			return false;

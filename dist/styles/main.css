@@ -14455,6 +14455,76 @@ i[class^=ico-] {
 }
 
 /* ------------------------------------------------------------ *\
+	Text Section Title Filters
+\* ------------------------------------------------------------ */
+.section--text-filter .text-filter {
+  padding: 60px 0;
+  max-width: 740px;
+  margin: 0 auto;
+}
+.section--text-filter .text-filter__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.section--text-filter .text-filter__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  border-radius: 999px;
+  background: #fff;
+  box-shadow: 0 2px 0 rgba(120, 168, 104, 0.12);
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.35;
+  color: #2b2b2b;
+  text-decoration: none;
+  transition: background 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease, color 0.25s ease;
+}
+.section--text-filter .text-filter__btn:hover {
+  border-color: #002559;
+  color: #002559;
+}
+.section--text-filter .text-filter__btn.is-active {
+  border-color: #002559;
+  background: #002559;
+  box-shadow: 0 10px 20px rgba(170, 170, 170, 0.28);
+  color: #fff;
+}
+.section--text-filter .text-filter__block {
+  max-width: 740px;
+  margin: 0 auto 32px;
+  text-align: left;
+  scroll-margin-top: 120px;
+}
+.section--text-filter .text-filter__block:last-child {
+  margin-bottom: 0;
+}
+.section--text-filter .text-filter__block h2 {
+  margin-top: 0;
+  text-align: center;
+}
+.section--text-filter .text-filter__content li {
+  margin-bottom: 16px;
+}
+@media (max-width: 767px) {
+  .section--text-filter .text-filter__list {
+    flex-direction: column;
+  }
+  .section--text-filter .text-filter__btn {
+    width: 100%;
+  }
+}
+
+/* ------------------------------------------------------------ *\
 	Generic Wordpress
 \* ------------------------------------------------------------ */
 .error-message {
