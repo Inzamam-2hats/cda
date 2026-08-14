@@ -120,7 +120,7 @@
 					};
 
 					setTimeout(function() {
-						var numCount = new CountUp(this, 0, countNumber, decimal, 5, options);
+						var numCount = new CountUp(this, 0, countNumber, decimal, 2, options);
 
 						if (!numCount.error) {
 							numCount.start();
