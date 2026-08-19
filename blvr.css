@@ -737,3 +737,32 @@ header.section__head.section__head--grey.fadeup.animate.home-page-round-block.an
     padding: 60px 0 75px;
   }
 }
+
+
+@media (min-width: 1800px) {
+  .section.section--decorated .section__decoration {
+    max-width: 90vw;
+    bottom: -6vw;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media (max-width: 1799px) and (min-width: 1400px) {
+  .section.section--decorated .section__decoration {
+    width: 85vw;
+    bottom: -20vw;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 90vw;
+}
+}
+
+@media (max-width: 1399) {
+  .section.section--decorated .section__decoration {
+    width: 85vw;
+    bottom: -6vw;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 90vw;
+}
+}
