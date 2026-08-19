@@ -500,7 +500,7 @@
 /* Section Cards */
 
 .section--cards .cards {
-  padding: 0 0 60px;
+  padding: 0 0 50px;
 }
 
 .section--cards .cards__inner {
@@ -583,12 +583,11 @@
   color: #189eae;
 }
 
-.section--cards .row > [class*="col-"] {
-  margin-bottom: 24px;
-}
-
-@media (min-width: 992px) {
+@media (max-width: 991px) {
   .section--cards .row > [class*="col-"] {
+    margin-bottom: 24px;
+  }
+  .section--cards .row > [class*="col-"]:last-child {
     margin-bottom: 0;
   }
 }
@@ -657,4 +656,84 @@ color: #fff !important;
 }
 .service .service__image {
   background-color: #fff;
+}
+
+/* 18-08-2026 */
+
+.section--cards .card-item {
+  align-items: center;
+  text-align: center;
+  min-height: 350px;
+  padding: 40px;
+}
+
+@media (max-width: 1024px)  {
+  .section--cards .card-item {
+    min-height: auto;
+    padding: 24px;
+  }
+}
+
+.section--cards .card-item__content {
+  width: 100%;
+}
+
+.callout.callout--alt.full-width .background {
+  max-width: calc(100% - 60px);
+}
+@media (max-width: 1279px) {
+  .callout.callout--alt.full-width .background{
+    max-width: 100%;
+  }
+}
+
+/* spacing  */
+section.gap-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+header.section__head.section__head--grey.fadeup.animate.home-page-round-block.animated {
+  padding: 100px 0;
+}
+
+.section.home-page-round-block .section__head.section__head--grey p:last-child {
+  margin-bottom: 0;
+}
+
+.video-iframe .section__head {
+  padding-bottom: 50px;
+}
+
+.slider-testimonials .testimonial {
+  padding: 100px 0 125px;
+}
+
+@media (max-width: 991px) {
+  .slider-testimonials .testimonial {
+    padding: 100px 70px 125px;
+  }
+}
+
+@media (max-width: 767px) {
+  header.section__head.section__head--grey.fadeup.animate.home-page-round-block.animated {
+    padding: 60px 0;
+  }
+
+  section.gap-50 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .intro .intro__content h1 {
+    color: #002559;
+  }
+
+  .intro .intro__content p {
+    margin-bottom: 10px;
+  }
+
+  .slider-testimonials .testimonial {
+    padding: 60px 0 75px;
+  }
 }
